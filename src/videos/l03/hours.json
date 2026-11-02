@@ -1,0 +1,78 @@
+{
+ "source": "Penn World Table (2025) via Our World in Data, annual working hours per worker, 2023",
+ "years": [
+  2023
+ ],
+ "countries": [
+  {
+   "name": "Germany",
+   "code": "DE",
+   "values": [
+    1335
+   ]
+  },
+  {
+   "name": "France",
+   "code": "FR",
+   "values": [
+    1487
+   ]
+  },
+  {
+   "name": "United Kingdom",
+   "code": "GB",
+   "values": [
+    1523
+   ]
+  },
+  {
+   "name": "Italy",
+   "code": "IT",
+   "values": [
+    1701
+   ]
+  },
+  {
+   "name": "Spain",
+   "code": "ES",
+   "values": [
+    1638
+   ]
+  },
+  {
+   "name": "Czechia",
+   "code": "CZ",
+   "values": [
+    1774
+   ]
+  },
+  {
+   "name": "Poland",
+   "code": "PL",
+   "values": [
+    1807
+   ]
+  },
+  {
+   "name": "Portugal",
+   "code": "PT",
+   "values": [
+    1735
+   ]
+  },
+  {
+   "name": "Hungary",
+   "code": "HU",
+   "values": [
+    1668
+   ]
+  },
+  {
+   "name": "Greece",
+   "code": "GR",
+   "values": [
+    1893
+   ]
+  }
+ ]
+}

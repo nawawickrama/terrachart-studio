@@ -1,0 +1,15 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "ROMANIA vs PORTUGAL vs GREECE",
+  "subtitle": "Gross monthly minimum wage, July 2026",
+  "countries": ["Portugal", "Greece", "Romania"],
+  "focus": ["Romania"],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 3.2 } },
+  "lines": [
+    { "id": "a", "race": { "at": 0 }, "say": "In euros, Portugal and Greece both pay a minimum wage of 1,073 a month. Romania pays 825." },
+    { "id": "b", "race": { "from": 0, "to": 1 }, "say": "But prices in Romania are much lower. Now count what each wage actually buys." },
+    { "id": "c", "race": { "at": 1 }, "say": "Romania: 1,317. Portugal: 1,240. Greece: 1,229." },
+    { "id": "d", "race": { "at": 1 }, "say": "In real buying power, Romania's minimum wage beats both." },
+    { "id": "e", "race": { "at": 1 }, "say": "Every EU country, ranked both ways, on our channel." }
+  ]
+}

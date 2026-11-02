@@ -1,0 +1,25 @@
+{
+  "name": "terrachart-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "voice": "node scripts/voice.mjs",
+    "music": "python3 scripts/music.py",
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "render:l01": "remotion render L01 out/L01.mp4",
+    "stills": "node scripts/stills.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/fonts": "4.0.535",
+    "kokoro-js": "1.2.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

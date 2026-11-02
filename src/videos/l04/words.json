@@ -1,0 +1,570 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.95
+  },
+  "music": {
+    "file": "music/terrachart-bed-04.wav",
+    "credit": "Music: original score by Terrachart"
+  },
+  "pacing": {
+    "lead": 1,
+    "tail": 11.4,
+    "pause": 1,
+    "pauseAfter": {
+      "hook_c": 1.6,
+      "measure_c": 1.4,
+      "y1950_c": 1.4,
+      "climb_a": 3.0,
+      "climb_b": 1.2,
+      "climb_c": 1.6,
+      "y1990": 1.4,
+      "east_a": 1.4,
+      "east_c": 1.6,
+      "south_a": 4.2,
+      "south_b": 1.6,
+      "dip_a": 2.8,
+      "dip_d": 1.6,
+      "y2023_d": 1.6,
+      "why_b": 1.6,
+      "take_3": 1.2,
+      "next": 1.2,
+      "y1950_d": 1.6,
+      "east_baltic": 1.2,
+      "south_c": 1.2,
+      "dip_c2": 1.2,
+      "climb_b2": 1.2,
+      "south_pt": 1.6
+    }
+  },
+  "crossings": [
+    {
+      "country": "Germany",
+      "year": 1965
+    },
+    {
+      "country": "United Kingdom",
+      "year": 1972
+    },
+    {
+      "country": "Norway",
+      "year": 1982
+    }
+  ],
+  "chapters": {
+    "hook_a": "62 years vs 72",
+    "measure_a": "What life expectancy means",
+    "y1950_a": "1950",
+    "climb_a": "The long climb",
+    "east_a": "The east in the 1990s",
+    "south_a": "The south takes over",
+    "dip_a": "The pandemic dip",
+    "y2023_a": "2023",
+    "why_a": "Why the south?",
+    "take_1": "What it means"
+  },
+  "lines": [
+    {
+      "id": "hook_a",
+      "view": "map",
+      "race": {
+        "at": 1950
+      },
+      "focus": [
+        "Spain",
+        "Norway"
+      ],
+      "note": "1950 · Spain 61.8 years · Norway 71.6",
+      "say": "In 1950, a baby born in Spain could expect to live about 62 years. A baby born in Norway, almost 72."
+    },
+    {
+      "id": "hook_b",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Spain",
+        "Norway"
+      ],
+      "note": "2023 · Spain 83.7 years · Norway 83.3",
+      "say": "Today, Spain is one of the longest-living countries in the world, at almost 84. And it's ahead of Norway."
+    },
+    {
+      "id": "hook_c",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "overlay": "title",
+      "say": "This is how southern Europe overtook the north, and what happened in the east along the way."
+    },
+    {
+      "id": "measure_a",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "What we're measuring",
+        "Life expectancy at birth: how long a baby would live if that year's death rates never changed"
+      ],
+      "say": "First, what the number means. Life expectancy at birth is how long a baby born in a given year would live, if the death rates of that year stayed the same all its life."
+    },
+    {
+      "id": "measure_b",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "A snapshot, not a forecast",
+        "It shows how healthy a country is in that year. Deaths in childhood pull the average down a long way"
+      ],
+      "say": "So it isn't a forecast for anyone. It's a snapshot of how healthy a country is in that year. And when many babies die young, the average falls a long way, which is why the early figures are so low."
+    },
+    {
+      "id": "measure_c",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "40 countries",
+        "Each square is one country: the brighter, the longer people live. Source: UN, via Our World in Data"
+      ],
+      "say": "The figures come from the United Nations' World Population Prospects, through Our World in Data. Each square on this map is one country, and the brighter it is, the longer people live."
+    },
+    {
+      "id": "y1950_a",
+      "view": "map",
+      "race": {
+        "at": 1950
+      },
+      "focus": [
+        "Norway",
+        "Netherlands",
+        "Sweden"
+      ],
+      "note": "1950 · Norway 71.6 · Netherlands 71.4 · Sweden 71.1",
+      "say": "1950. Europe as a whole: 62 years, well above the world average of 46. At the top: Norway at 71.6, the Netherlands at 71.4 and Sweden at 71.1, all in the north-west."
+    },
+    {
+      "id": "y1950_b",
+      "view": "map",
+      "race": {
+        "at": 1950
+      },
+      "focus": [
+        "Italy",
+        "Spain",
+        "Portugal",
+        "Albania"
+      ],
+      "note": "Italy 65.7 · Spain 61.8 · Portugal 58.5 · Albania 44.5",
+      "say": "Further south and east, the numbers are much lower. Italy, 65.7. Spain, 61.8. Portugal, 58.5. Albania, 44.5."
+    },
+    {
+      "id": "y1950_c",
+      "view": "map",
+      "race": {
+        "at": 1950
+      },
+      "focus": [
+        "Norway",
+        "Albania"
+      ],
+      "note": "1950 · 27 years between the top and the bottom",
+      "say": "Between the top and the bottom of this map, that's a gap of 27 years."
+    },
+    {
+      "id": "y1950_d",
+      "view": "map",
+      "race": {
+        "at": 1950
+      },
+      "focus": [
+        "Spain",
+        "Portugal",
+        "Norway"
+      ],
+      "src": "child",
+      "note": "Died before age 5, 1950 · Portugal 15% · Spain 10% · Norway 3%",
+      "say": "Much of that gap is children. In 1950, about one child in ten in Spain died before turning five. In Portugal, about one in seven. In Norway, one in thirty."
+    },
+    {
+      "id": "climb_a",
+      "view": "lines",
+      "race": {
+        "from": 1950,
+        "to": 1975
+      },
+      "say": "Then comes the long climb. Through the 1950s, 60s and 70s, almost every country adds years, and fast."
+    },
+    {
+      "id": "climb_b",
+      "view": "lines",
+      "race": {
+        "at": 1975
+      },
+      "card": [
+        "Why it rose so fast",
+        "Far fewer deaths in childhood, vaccines and antibiotics, clean water and better food"
+      ],
+      "say": "Far fewer children die young. Vaccines and antibiotics reach almost everyone. Clean water and better food do the rest. In Spain today, about one child in 300 dies before turning five."
+    },
+    {
+      "id": "climb_b2",
+      "view": "lines",
+      "race": {
+        "at": 1975
+      },
+      "note": "1975 · Europe 70.9 · Norway in 1950: 71.6",
+      "say": "By 1975, Europe's average has reached almost 71, nearly as high as Norway's was in 1950."
+    },
+    {
+      "id": "climb_c",
+      "view": "lines",
+      "race": {
+        "from": 1975,
+        "to": 1981
+      },
+      "focus": [
+        "Spain",
+        "Norway",
+        "Germany",
+        "United Kingdom"
+      ],
+      "say": "Spain is climbing fastest of all. It has already passed Germany and the UK."
+    },
+    {
+      "id": "climb_d",
+      "view": "lines",
+      "race": {
+        "at": 1982
+      },
+      "focus": [
+        "Spain",
+        "Norway"
+      ],
+      "cross": "Norway",
+      "note": "1982 · Spain passes Norway",
+      "say": "And in 1982, Spain passes Norway. Since 1950, it has added about five and a half months of life expectancy every single year."
+    },
+    {
+      "id": "y1990",
+      "view": "map",
+      "race": {
+        "at": 1990
+      },
+      "note": "1990 · Europe 73.1 · gap top to bottom: 9.8 years",
+      "say": "By 1990, Europe's average is 73, and the gap between the top and the bottom of the map has shrunk to about ten years. Portugal, the lowest in western Europe in 1950, has gained almost 16 years."
+    },
+    {
+      "id": "east_a",
+      "view": "lines",
+      "race": {
+        "from": 1990,
+        "to": 1994
+      },
+      "focus": [
+        "Russia",
+        "Poland"
+      ],
+      "note": "Russia · 69.3 in 1990 · 63.8 in 1994",
+      "say": "But watch the east. As the Soviet Union breaks up, life expectancy in Russia falls, from 69.3 in 1990 to 63.8 in 1994."
+    },
+    {
+      "id": "east_baltic",
+      "view": "map",
+      "race": {
+        "at": 1994
+      },
+      "focus": [
+        "Latvia",
+        "Estonia",
+        "Lithuania"
+      ],
+      "note": "Latvia · 69.5 in 1990 · 65.2 in 1994",
+      "say": "The Baltic states fall too. Latvia drops from 69.5 in 1990 to 65.2 in 1994."
+    },
+    {
+      "id": "east_b",
+      "view": "map",
+      "race": {
+        "at": 2000
+      },
+      "focus": [
+        "Russia",
+        "Ukraine",
+        "Belarus",
+        "Moldova"
+      ],
+      "note": "2000 · Russia 65.0 · Ukraine 67.8 · Belarus 68.5 · Moldova 67.5",
+      "say": "By 2000, Russia is still only at 65. Ukraine, Belarus and Moldova are lower than in 1990 too. Researchers link it to economic collapse, alcohol and strained health systems."
+    },
+    {
+      "id": "east_c",
+      "view": "map",
+      "race": {
+        "at": 2000
+      },
+      "focus": [
+        "Spain",
+        "Russia"
+      ],
+      "note": "Spain vs Russia · 7.7 years apart in 1990 · 14.4 in 2000",
+      "say": "For a decade, the gap between east and west grows instead of shrinking. Spain and Russia were 7.7 years apart in 1990. By 2000, 14.4."
+    },
+    {
+      "id": "south_a",
+      "view": "lines",
+      "race": {
+        "from": 2000,
+        "to": 2019
+      },
+      "focus": [
+        "Spain",
+        "Italy",
+        "Switzerland",
+        "Norway",
+        "Sweden"
+      ],
+      "say": "Meanwhile, the south keeps on climbing."
+    },
+    {
+      "id": "south_b",
+      "view": "lines",
+      "race": {
+        "at": 2019
+      },
+      "focus": [
+        "Spain",
+        "Italy",
+        "Switzerland",
+        "Norway"
+      ],
+      "note": "2019 · Switzerland 83.8 · Spain 83.5 · Italy 83.3",
+      "say": "By 2019, the top three on our map are Switzerland at 83.8, Spain at 83.5 and Italy at 83.3. Spain started ten years behind Norway. Now it's ahead."
+    },
+    {
+      "id": "south_c",
+      "view": "lines",
+      "race": {
+        "at": 2019
+      },
+      "focus": [
+        "Italy",
+        "Norway",
+        "Switzerland"
+      ],
+      "say": "Italy did the same, passing Norway in the late 1980s. In 2019, Switzerland is the only country on the map ahead of both of them."
+    },
+    {
+      "id": "south_pt",
+      "view": "lines",
+      "race": {
+        "at": 2019
+      },
+      "focus": [
+        "Portugal",
+        "Germany",
+        "United Kingdom"
+      ],
+      "note": "Portugal passes Germany in 2010 and the UK in 2014",
+      "say": "Portugal, which started at 58.5, passed Germany in 2010 and the UK in 2014."
+    },
+    {
+      "id": "dip_a",
+      "view": "dip",
+      "race": {
+        "from": 2019,
+        "to": 2021
+      },
+      "focus": [
+        "Spain",
+        "Italy",
+        "Bulgaria",
+        "Russia"
+      ],
+      "say": "Then comes the pandemic. Here are the last few years, close up."
+    },
+    {
+      "id": "dip_b",
+      "view": "dip",
+      "race": {
+        "at": 2021
+      },
+      "note": "Europe · 78.8 in 2019 · 77.0 in 2021",
+      "say": "Europe's average falls from 78.8 in 2019 to 77.0 in 2021, the biggest fall since these figures begin, in 1950."
+    },
+    {
+      "id": "dip_c",
+      "view": "dip",
+      "race": {
+        "at": 2021
+      },
+      "focus": [
+        "Bulgaria",
+        "Russia"
+      ],
+      "note": "2019 to 2021 · Bulgaria −3.7 years · Russia −3.3",
+      "say": "Some countries lose much more. Bulgaria drops by 3.7 years, and Russia by 3.3."
+    },
+    {
+      "id": "dip_c2",
+      "view": "dip",
+      "race": {
+        "at": 2021
+      },
+      "focus": [
+        "Norway",
+        "Spain"
+      ],
+      "note": "Norway · 83.0 in 2019 · 83.2 in 2021",
+      "say": "Others barely notice it. Norway's figure doesn't fall at all, which is why Norway was briefly back ahead of Spain, from 2020 to 2022."
+    },
+    {
+      "id": "dip_d",
+      "view": "dip",
+      "race": {
+        "at": 2023
+      },
+      "note": "2023 · Europe 79.1, above its 2019 level",
+      "say": "Then it recovers. By 2023, Europe is back to 79.1, higher than before the pandemic."
+    },
+    {
+      "id": "y2023_a",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Switzerland",
+        "Italy",
+        "Spain"
+      ],
+      "note": "2023 · Switzerland 84.0 · Italy 83.7 · Spain 83.7",
+      "say": "2023. Switzerland, 84.0. Italy and Spain, 83.7. Then France, Norway, Malta and Sweden, all about 83.3."
+    },
+    {
+      "id": "y2023_b",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Germany",
+        "United Kingdom"
+      ],
+      "note": "2023 · Germany 81.4 · UK 81.3",
+      "say": "Further down: Germany at 81.4 and the UK at 81.3. Both are now behind Spain, Italy and France, and behind Portugal and Greece too."
+    },
+    {
+      "id": "y2023_c",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Poland",
+        "Hungary",
+        "Romania",
+        "Bulgaria",
+        "Ukraine",
+        "Russia",
+        "Moldova"
+      ],
+      "note": "Lowest on the map · Ukraine 73.4 · Russia 73.2 · Moldova 71.2",
+      "say": "Then Poland, 78.6. Hungary, 77.0. Romania, 75.9. Bulgaria, 75.6. And lowest on the map: Ukraine at 73.4, Russia at 73.2 and Moldova at 71.2. For comparison, the world average is 73.2, the same as Russia's."
+    },
+    {
+      "id": "y2023_d",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Spain",
+        "Portugal",
+        "Albania"
+      ],
+      "note": "Since 1950 · Spain +21.9 years · Portugal +23.9 · Albania +35.1",
+      "say": "Since 1950, Spain has gained almost 22 years, and Portugal almost 24. The biggest gain on the map is Albania's: 35 years. Albania, at the very bottom in 1950, now lives longer than Poland, Hungary or Croatia."
+    },
+    {
+      "id": "why_a",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "Why the south?",
+        "Lower heart disease, diet, family ties into old age, health systems that reach almost everyone. No single answer"
+      ],
+      "say": "Why the south? Researchers point to several things, and no single one explains it: lower rates of heart disease, diet, strong family ties into old age, and health systems that reach almost everyone."
+    },
+    {
+      "id": "why_b",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "panel": "health",
+      "say": "And Germany is the puzzle. It spends about 8,300 dollars a year per person on health, adjusted for prices. Spain spends about 4,900. Yet a baby born in Spain can expect to live more than two years longer."
+    },
+    {
+      "id": "take_1",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "take": [
+        "Europe gained 17 years",
+        "From 62 in 1950 to 79 in 2023"
+      ],
+      "say": "Three things to take away. One: Europe as a whole gained 17 years of life expectancy, from 62 in 1950 to 79 in 2023."
+    },
+    {
+      "id": "take_2",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "take": [
+        "The south overtook the north",
+        "Spain and Italy now outlive Norway, Sweden and Germany"
+      ],
+      "say": "Two: the south overtook the north. Spain and Italy now live longer than Norway, Sweden and Germany."
+    },
+    {
+      "id": "take_3",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "take": [
+        "The east fell behind, then climbed back",
+        "Russia lost more than five years in the early 1990s"
+      ],
+      "say": "Three: the east fell behind in the 1990s, Russia by more than five years, and it is still catching up."
+    },
+    {
+      "id": "next",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "say": "Next on Terrachart: who works the longest hours in Europe. It's not who you think."
+    },
+    {
+      "id": "end",
+      "view": "map",
+      "race": {
+        "at": 2023
+      },
+      "say": "Sources are in the description. Why do you think Spain and Italy live longer than Germany and the UK? Tell us in the comments."
+    }
+  ]
+}

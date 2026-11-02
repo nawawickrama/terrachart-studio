@@ -1,0 +1,14 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "IRELAND vs SWEDEN",
+  "subtitle": "Economy size, GDP in US dollars",
+  "pair": ["Sweden", "Ireland"],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "s2": 6.5 } },
+  "lines": [
+    { "id": "s1", "race": { "at": 1990 }, "say": "In 1990, Ireland's economy was 49 billion dollars. Sweden's was 261 billion." },
+    { "id": "s2", "race": { "from": 1990, "to": 2025 }, "say": "Watch." },
+    { "id": "s3", "race": { "at": 2025 }, "say": "2025. Ireland: 722 billion. Sweden: 669. On paper, Ireland is bigger, with about half as many people." },
+    { "id": "s4", "race": { "at": 2025 }, "say": "But a large part of Ireland's GDP is the profit of international companies that book their earnings there." },
+    { "id": "s5", "race": { "at": 2025 }, "say": "That's why Ireland's own government uses a different measure for its budget. The full race is on our channel." }
+  ]
+}

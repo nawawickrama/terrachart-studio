@@ -1,0 +1,444 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.95
+  },
+  "music": {
+    "file": "music/terrachart-bed-02.wav",
+    "credit": "Music: original score by Terrachart"
+  },
+  "pacing": {
+    "lead": 1,
+    "tail": 17,
+    "pause": 1,
+    "pauseAfter": {
+      "hook_c": 1.6,
+      "measure_c": 1.4,
+      "eur_sum": 1.6,
+      "switch": 4.5,
+      "pps_low": 1.4,
+      "gap": 1.6,
+      "us": 1.6,
+      "growth_2016": 1,
+      "growth_run": 7,
+      "growth_slow": 1.4,
+      "growth_caveat": 1.6,
+      "take_3": 1.2,
+      "next": 1.2
+    }
+  },
+  "chapters": {
+    "hook_a": "€2,771 vs €620",
+    "measure_a": "What we're measuring",
+    "eur_top": "The ranking in euros",
+    "pps_a": "What a wage really buys",
+    "switch": "The ranking in buying power",
+    "gap": "The gap halves",
+    "us": "The United States",
+    "growth_intro": "Ten years of catching up",
+    "take_1": "What it means"
+  },
+  "lines": [
+    {
+      "id": "hook_a",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "Luxembourg",
+        "Bulgaria"
+      ],
+      "note": "July 2026 · Luxembourg €2,771 · Bulgaria €620",
+      "say": "Luxembourg pays the highest minimum wage in the European Union: 2,771 euros a month. Bulgaria pays the lowest: 620 euros. That's four and a half times more."
+    },
+    {
+      "id": "hook_b",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "Luxembourg",
+        "Bulgaria"
+      ],
+      "say": "But a euro in Sofia doesn't buy the same as a euro in Luxembourg. Take out the price differences, and the gap shrinks by half. And Luxembourg isn't first any more."
+    },
+    {
+      "id": "hook_c",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "overlay": "title",
+      "say": "Here's what a minimum wage is really worth in every EU country, and how fast that's changing."
+    },
+    {
+      "id": "measure_a",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "card": [
+        "What we're measuring",
+        "Gross monthly minimum wage, before tax, July 2026. Source: Eurostat"
+      ],
+      "say": "First, what we're comparing. These are gross monthly minimum wages, before tax, as they stood in July 2026. The figures come from Eurostat, the EU's statistics office."
+    },
+    {
+      "id": "measure_b",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "card": [
+        "22 of 27 countries",
+        "Austria, Denmark, Finland, Italy and Sweden have no national minimum wage"
+      ],
+      "say": "Twenty-two of the twenty-seven EU countries have a national minimum wage. Austria, Denmark, Finland, Italy and Sweden don't. There, pay is set in agreements between unions and employers, sector by sector, and it's often higher than a national minimum would be."
+    },
+    {
+      "id": "measure_c",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "card": [
+        "Fourteen payments a year",
+        "Where workers get 14 payments, as in Spain, Greece and Portugal, Eurostat spreads them over 12 months"
+      ],
+      "say": "One more detail. In some countries, such as Spain, Greece and Portugal, workers receive fourteen payments a year instead of twelve. Eurostat spreads those over twelve months, so every number here compares fairly."
+    },
+    {
+      "id": "eur_top",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "Luxembourg",
+        "Ireland",
+        "Germany",
+        "Netherlands",
+        "Belgium"
+      ],
+      "say": "Here's the ranking in euros. At the top, five countries above 2,200 euros a month: Luxembourg 2,771, Ireland 2,391, Germany 2,343, the Netherlands 2,338, and Belgium 2,234."
+    },
+    {
+      "id": "eur_mid1",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "France",
+        "Slovenia",
+        "Spain"
+      ],
+      "say": "Then a clear step down to France, at 1,867. Then Slovenia at 1,482, and Spain at 1,425."
+    },
+    {
+      "id": "eur_mid2",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "Lithuania",
+        "Poland",
+        "Cyprus",
+        "Greece",
+        "Portugal",
+        "Croatia"
+      ],
+      "say": "In the middle, a tight group between about 1,050 and 1,150 euros: Lithuania 1,153, Poland 1,119, Cyprus 1,088, Greece and Portugal at exactly 1,073 each, and Croatia 1,050."
+    },
+    {
+      "id": "eur_low",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "Malta",
+        "Estonia",
+        "Czechia",
+        "Slovakia",
+        "Hungary",
+        "Romania",
+        "Latvia",
+        "Bulgaria"
+      ],
+      "say": "Below a thousand euros: Malta 994, Estonia 946, Czechia 923, Slovakia 915, Hungary 906, Romania 825, and Latvia 780. And at the bottom, Bulgaria, at 620."
+    },
+    {
+      "id": "eur_sum",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "note": "€1,850+: west · €1,050–1,500: south and centre · under €1,000: mostly east",
+      "say": "On these numbers, Europe looks like three different worlds: the west, the south and centre, and the east."
+    },
+    {
+      "id": "pps_a",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "card": [
+        "What a wage really buys",
+        "Rent, food and transport cost very different amounts across the EU"
+      ],
+      "say": "But rent, food and transport cost very different amounts across the EU. A haircut in Sofia is not priced like a haircut in Luxembourg. So Eurostat also publishes these wages in purchasing power standards, or PPS."
+    },
+    {
+      "id": "pps_b",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "card": [
+        "Purchasing power standards",
+        "An artificial currency: one PPS buys the same basket of goods and services in every country"
+      ],
+      "say": "Think of PPS as an artificial currency. One PPS buys the same basket of everyday goods and services in every country. Converting to PPS tells you what a wage actually buys where it's earned."
+    },
+    {
+      "id": "switch",
+      "view": "rank",
+      "race": {
+        "from": 0,
+        "to": 1
+      },
+      "say": "Watch what happens when we switch."
+    },
+    {
+      "id": "pps_top",
+      "view": "rank",
+      "race": {
+        "at": 1
+      },
+      "focus": [
+        "Germany",
+        "Luxembourg"
+      ],
+      "note": "Germany 2,164 PPS · Luxembourg 2,108 PPS",
+      "say": "Germany moves to first place, with 2,164 PPS. Luxembourg drops to second, at 2,108. Luxembourg's wages are the highest in euros, but so are its prices."
+    },
+    {
+      "id": "pps_ie",
+      "view": "rank",
+      "race": {
+        "at": 1
+      },
+      "focus": [
+        "Ireland"
+      ],
+      "note": "Ireland: 2nd in euros, 5th in buying power",
+      "say": "Ireland falls further: from second place to fifth, at 1,756. Prices in Ireland, especially rents, are among the highest in Europe, and they eat a large part of that wage."
+    },
+    {
+      "id": "pps_pl",
+      "view": "rank",
+      "race": {
+        "at": 1
+      },
+      "focus": [
+        "Poland",
+        "Spain"
+      ],
+      "note": "Poland 1,547 PPS · Spain 1,556 PPS",
+      "say": "Now look at Poland. In euros, it's in the middle of the pack. In buying power, it's 1,547: almost exactly level with Spain's 1,556."
+    },
+    {
+      "id": "pps_ro",
+      "view": "rank",
+      "race": {
+        "at": 1
+      },
+      "focus": [
+        "Romania",
+        "Portugal",
+        "Greece"
+      ],
+      "note": "Romania 1,317 · Portugal 1,240 · Greece 1,229 PPS",
+      "say": "And Romania. In euros, its minimum wage is 825, far below Portugal's 1,073. In buying power, Romania's is worth 1,317: ahead of both Portugal, at 1,240, and Greece, at 1,229."
+    },
+    {
+      "id": "pps_low",
+      "view": "rank",
+      "race": {
+        "at": 1
+      },
+      "focus": [
+        "Latvia",
+        "Estonia",
+        "Bulgaria"
+      ],
+      "say": "At the bottom are now Latvia and Estonia, both just under 940. Bulgaria, last in euros, climbs above both of them, to 993."
+    },
+    {
+      "id": "gap",
+      "view": "rank",
+      "race": {
+        "at": 1
+      },
+      "card": [
+        "The gap halves",
+        "Highest to lowest: 4.5 times in euros, 2.3 times in what it buys"
+      ],
+      "say": "So the gap between the highest and the lowest minimum wage isn't four and a half times. In what money actually buys, it's about 2.3 times."
+    },
+    {
+      "id": "us",
+      "view": "rank",
+      "race": {
+        "at": 1
+      },
+      "card": [
+        "The United States, for comparison",
+        "Federal minimum $7.25 an hour, unchanged since 2009: €1,103 a month, or 834 PPS"
+      ],
+      "say": "Eurostat also publishes the United States for comparison. The US federal minimum wage is 7.25 dollars an hour, and it hasn't changed since 2009. That works out at 1,103 euros a month, or 834 in purchasing power: below every EU country on this list. But many US states set a higher minimum of their own, so the federal figure is a floor, not the typical wage."
+    },
+    {
+      "id": "growth_intro",
+      "view": "growth",
+      "race": {
+        "at": 2016
+      },
+      "note": "Minimum wages in euros, every July",
+      "say": "Now, how fast is this changing? Here are the same minimum wages in euros, every July since 2016."
+    },
+    {
+      "id": "growth_2016",
+      "view": "growth",
+      "race": {
+        "at": 2016
+      },
+      "focus": [
+        "Bulgaria",
+        "Romania",
+        "Luxembourg"
+      ],
+      "note": "2016 · Bulgaria €215 · Romania €276 · Luxembourg €1,923",
+      "say": "In 2016, Bulgaria's minimum wage was 215 euros a month. Romania's, 276. Luxembourg's was already 1,923. The highest was almost nine times the lowest."
+    },
+    {
+      "id": "growth_run",
+      "view": "growth",
+      "race": {
+        "from": 2016,
+        "to": 2026
+      },
+      "say": "Watch the bottom of the chart."
+    },
+    {
+      "id": "growth_fast",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "focus": [
+        "Lithuania",
+        "Romania",
+        "Bulgaria",
+        "Poland"
+      ],
+      "note": "Since 2016: Lithuania ×3.0 · Romania ×3.0 · Bulgaria ×2.9 · Poland ×2.7",
+      "say": "In ten years, Lithuania's minimum wage tripled, from 380 euros to 1,153. Romania's almost tripled too, from 276 to 825. Bulgaria's went from 215 to 620, and Poland's from 417 to 1,119."
+    },
+    {
+      "id": "growth_slow",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "focus": [
+        "France",
+        "Malta",
+        "Luxembourg"
+      ],
+      "note": "France +27% · Malta +37% · Luxembourg +44%",
+      "say": "At the other end, France grew the slowest: from 1,467 euros to 1,867, up 27 percent. Malta rose 37 percent, and Luxembourg 44."
+    },
+    {
+      "id": "growth_cyprus",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "focus": [
+        "Cyprus"
+      ],
+      "note": "Cyprus: national minimum wage since 2023",
+      "say": "And Cyprus only joins the chart in 2023, the year it introduced a national minimum wage."
+    },
+    {
+      "id": "growth_caveat",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "card": [
+        "Not adjusted for inflation",
+        "Part of every rise is prices going up, especially in 2022 and 2023"
+      ],
+      "say": "Remember, these are euros at each year's prices, and part of every rise is inflation, which was very high across the EU in 2022 and 2023. But the catch-up is real. In euros, the highest minimum wage was almost nine times the lowest in 2016. Today it's four and a half. In buying power, the gap fell from three and a half times to 2.3."
+    },
+    {
+      "id": "take_1",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "take": [
+        "The gap is half what it looks",
+        "4.5 times in euros, 2.3 times in what it buys"
+      ],
+      "say": "Three things to take away. One: the gap between east and west is real, but in what money actually buys, it's about half as big as the euro figures suggest."
+    },
+    {
+      "id": "take_2",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "take": [
+        "High wages, high prices",
+        "Ireland and Luxembourg lose ground once prices are counted"
+      ],
+      "say": "Two: a high wage doesn't help as much when prices are high too. Ask anyone renting in Dublin."
+    },
+    {
+      "id": "take_3",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "take": [
+        "The east is catching up fast",
+        "Lithuania, Romania and Bulgaria roughly tripled since 2016"
+      ],
+      "say": "Three: the countries at the bottom are catching up fast. In ten years, Lithuania, Romania and Bulgaria roughly tripled their minimum wages."
+    },
+    {
+      "id": "next",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "say": "A minimum wage isn't the whole story: taxes, rents and how many people actually earn it all differ. Next on Terrachart: how Poland went from one of Europe's poorest economies to one of its biggest catch-up stories."
+    },
+    {
+      "id": "end",
+      "view": "growth",
+      "race": {
+        "at": 2026
+      },
+      "say": "Sources are in the description. Tell us what the minimum wage really buys where you live. We read every comment."
+    }
+  ]
+}

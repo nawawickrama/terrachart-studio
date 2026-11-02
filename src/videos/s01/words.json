@@ -1,0 +1,15 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "POLAND vs SWITZERLAND",
+  "subtitle": "Economy size, GDP in US dollars",
+  "pair": ["Switzerland", "Poland"],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.35, "pauseAfter": { "s3": 6.5 } },
+  "lines": [
+    { "id": "s1", "race": { "at": 1990 }, "say": "In 1990, Poland's economy was worth 66 billion dollars." },
+    { "id": "s2", "race": { "at": 1990 }, "say": "Switzerland's was 270 billion. Four times bigger." },
+    { "id": "s3", "race": { "from": 1990, "to": 2025 }, "say": "Watch." },
+    { "id": "s4", "race": { "at": 2025 }, "say": "2025. Switzerland: 1.044 trillion. Poland: 1.035 trillion." },
+    { "id": "s5", "race": { "at": 2025 }, "say": "Nine billion dollars apart. If next year looks like this one, Poland passes Switzerland." },
+    { "id": "s6", "race": { "at": 2025 }, "say": "The full race of Europe's biggest economies is on our channel." }
+  ]
+}

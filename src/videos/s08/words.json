@@ -1,0 +1,18 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "SPAIN: +22 YEARS",
+  "subtitle": "Life expectancy at birth, in years",
+  "countries": ["Spain", "Norway"],
+  "hero": "Spain",
+  "crossings": [{ "country": "Norway", "year": 1982 }],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 3.6, "d": 2.4 } },
+  "lines": [
+    { "id": "a", "race": { "at": 1950 }, "say": "In 1950, a baby born in Spain could expect to live about 62 years. In Norway, almost 72." },
+    { "id": "b", "race": { "from": 1950, "to": 1981 }, "say": "Watch Spain." },
+    { "id": "c", "race": { "at": 1982 }, "cross": "Norway", "say": "1982. Spain passes Norway." },
+    { "id": "d", "race": { "from": 1982, "to": 2019 }, "say": "And it keeps on climbing." },
+    { "id": "e", "race": { "at": 2021 }, "say": "The pandemic briefly puts Norway back in front." },
+    { "id": "f", "race": { "at": 2023 }, "say": "But by 2023, Spain is ahead again: 83.7 years, against Norway's 83.3." },
+    { "id": "g", "race": { "at": 2023 }, "say": "That's almost 22 extra years in one lifetime. The whole of Europe is in our full video." }
+  ]
+}

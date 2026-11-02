@@ -1,0 +1,43 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.98
+  },
+  "title": "81.4 vs 83.7",
+  "subtitle": "Germany vs Spain, 2023",
+  "pacing": {
+    "lead": 0.5,
+    "tail": 1.5,
+    "pause": 0.45,
+    "pauseAfter": {
+      "c": 1.0
+    }
+  },
+  "lines": [
+    {
+      "id": "a",
+      "say": "Germany spends about 8,300 dollars a year per person on health, adjusted for prices."
+    },
+    {
+      "id": "b",
+      "say": "Spain spends about 4,900."
+    },
+    {
+      "id": "c",
+      "say": "So Germans should live longer. They don't."
+    },
+    {
+      "id": "d",
+      "say": "A baby born in Germany can expect to live 81.4 years. In Spain, 83.7. In Italy, the same."
+    },
+    {
+      "id": "e",
+      "say": "Diet, heart disease, family life: researchers argue about the reasons. What's your theory?"
+    },
+    {
+      "id": "f",
+      "say": "The whole map of Europe is in our full video."
+    }
+  ]
+}

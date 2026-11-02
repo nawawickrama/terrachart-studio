@@ -1,0 +1,48 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.98
+  },
+  "title": "+472 HOURS",
+  "subtitle": "Poland vs Germany, 2023",
+  "pacing": {
+    "lead": 0.5,
+    "tail": 1.5,
+    "pause": 0.45,
+    "pauseAfter": {
+      "c": 1.2,
+      "d": 0.8
+    }
+  },
+  "lines": [
+    {
+      "id": "a",
+      "say": "The average Polish worker works about 1,807 hours a year."
+    },
+    {
+      "id": "b",
+      "say": "The average German works 1,335."
+    },
+    {
+      "id": "c",
+      "say": "That's 472 hours more. About twelve extra forty-hour weeks, every year."
+    },
+    {
+      "id": "d",
+      "say": "Poland has caught up fast. Its GDP per person is now three quarters of Germany's."
+    },
+    {
+      "id": "e",
+      "say": "But per hour worked, a Polish worker produces about 47 dollars of output. A German worker, about 82."
+    },
+    {
+      "id": "f",
+      "say": "Per hour, Poland is at 57 percent of Germany. The long hours are doing a lot of the work."
+    },
+    {
+      "id": "g",
+      "say": "How Poland caught up is in our full video."
+    }
+  ]
+}

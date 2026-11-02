@@ -1,0 +1,25 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "SPAIN IS NEXT",
+  "subtitle": "GDP per person, adjusted for prices",
+  "countries": ["Spain", "Portugal", "Hungary", "Greece", "Poland"],
+  "hero": "Poland",
+  "crossings": [
+    { "country": "Hungary", "year": 2011 },
+    { "country": "Greece", "year": 2015 },
+    { "country": "Portugal", "year": 2020 }
+  ],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 3.6, "d": 0.8, "f": 0.8, "h": 1.2 } },
+  "lines": [
+    { "id": "a", "race": { "at": 1990 }, "say": "1990. Poland is the poorest country on this chart: 12,821 dollars a person, adjusted for prices." },
+    { "id": "b", "race": { "from": 1990, "to": 2011 }, "say": "Watch the amber line." },
+    { "id": "c", "race": { "at": 2011 }, "cross": "Hungary", "say": "2011. It passes Hungary." },
+    { "id": "d", "race": { "from": 2011, "to": 2015 }, "say": "Greece's debt crisis drags its line down." },
+    { "id": "e", "race": { "at": 2015 }, "cross": "Greece", "say": "2015. Poland passes Greece." },
+    { "id": "f", "race": { "from": 2015, "to": 2020 }, "say": "Then comes the pandemic." },
+    { "id": "g", "race": { "at": 2020 }, "cross": "Portugal", "say": "2020. It passes Portugal." },
+    { "id": "h", "race": { "from": 2020, "to": 2025 }, "say": "And by 2025," },
+    { "id": "i", "race": { "at": 2025 }, "say": "Poland is at 95 percent of Spain." },
+    { "id": "j", "race": { "at": 2025 }, "say": "If the last ten years' pace held, it would pass Spain in about two years. How Poland did it is in our full video." }
+  ]
+}

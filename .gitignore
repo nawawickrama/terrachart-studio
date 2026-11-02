@@ -1,0 +1,6 @@
+node_modules
+out
+.DS_Store
+.env
+# Music beds are about 100 MB each (over GitHub's limit); rebuild with: python3 scripts/music.py <id> <seconds>
+public/music/*.wav

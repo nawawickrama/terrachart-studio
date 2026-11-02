@@ -1,0 +1,72 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.98
+  },
+  "title": "IL SORPASSO",
+  "subtitle": "Italy vs the UK, GDP in US dollars",
+  "pair": [
+    "United Kingdom",
+    "Italy"
+  ],
+  "pacing": {
+    "lead": 0.5,
+    "tail": 1.5,
+    "pause": 0.4,
+    "pauseAfter": {
+      "c": 0.8,
+      "d": 0.6,
+      "e": 1.2,
+      "a": 0.8
+    }
+  },
+  "lines": [
+    {
+      "id": "a",
+      "race": {
+        "from": 1984,
+        "to": 1986
+      },
+      "say": "Watch Italy and Britain in the mid-1980s."
+    },
+    {
+      "id": "b",
+      "race": {
+        "at": 1986
+      },
+      "say": "In 1986, Italy's economy passed Britain's, in dollars. Italians called it il sorpasso: the overtaking."
+    },
+    {
+      "id": "c",
+      "race": {
+        "from": 1986,
+        "to": 1989
+      },
+      "say": "Then the lira and the pound trade places. Britain ahead in 1988. Italy again in 1989."
+    },
+    {
+      "id": "d",
+      "race": {
+        "from": 1989,
+        "to": 1994
+      },
+      "say": "Italy stays ahead into the 1990s. Then, in 1994, Britain moves ahead, and this time for good."
+    },
+    {
+      "id": "e",
+      "race": {
+        "from": 1994,
+        "to": 2025
+      },
+      "say": "Today: the UK, 4 trillion dollars. Italy, 2.55 trillion."
+    },
+    {
+      "id": "f",
+      "race": {
+        "at": 2025
+      },
+      "say": "The full race of Europe's biggest economies is on our channel."
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.95
+  },
+  "music": {
+    "file": "music/terrachart-bed-03.wav",
+    "credit": "Music: original score by Terrachart"
+  },
+  "pacing": {
+    "lead": 1,
+    "tail": 11.4,
+    "pause": 1,
+    "pauseAfter": {
+      "hook_c": 1.6,
+      "measure_c": 1.4,
+      "shock_b": 1.2,
+      "eu_run": 1.4,
+      "crisis_c": 1.4,
+      "pass_hu": 1.2,
+      "pass_gr": 0.8,
+      "pass_pt": 0.8,
+      "y2025_c": 1.6,
+      "per_hour": 1.6,
+      "regions_b": 1.4,
+      "pop_b": 1.6,
+      "next_c": 1.6,
+      "take_3": 1.2,
+      "next": 1.2,
+      "growth_90s": 2.4,
+      "y2000": 1.4,
+      "pass_gr_b": 1.2,
+      "pass_pt_b": 1.4,
+      "y2025_lead": 1.0
+    }
+  },
+  "markers": [
+    {
+      "year": 1990,
+      "label": "End of communism"
+    },
+    {
+      "year": 2004,
+      "label": "Joins the EU"
+    },
+    {
+      "year": 2009,
+      "label": "Financial crisis"
+    },
+    {
+      "year": 2020,
+      "label": "Pandemic"
+    }
+  ],
+  "crossings": [
+    {
+      "country": "Hungary",
+      "year": 2011
+    },
+    {
+      "country": "Greece",
+      "year": 2015
+    },
+    {
+      "country": "Portugal",
+      "year": 2020
+    }
+  ],
+  "chapters": {
+    "hook_a": "From a third to three quarters",
+    "measure_a": "What we're measuring",
+    "y1990_a": "1990: the starting line",
+    "eu_a": "Joining the EU",
+    "crisis_a": "The crisis that skipped Poland",
+    "pass_hu": "Overtaking Hungary, Greece and Portugal",
+    "y2025_lead": "2025",
+    "catch_intro": "What the line doesn't show",
+    "next_a": "What's next",
+    "take_1": "What it means"
+  },
+  "lines": [
+    {
+      "id": "hook_a",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Poland",
+        "Germany"
+      ],
+      "note": "Poland: 30% of Germany's level in 1990, 75% in 2025",
+      "say": "In 1990, the average Pole produced less than a third of what the average German did. Today, it's three quarters."
+    },
+    {
+      "id": "hook_b",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Poland",
+        "Hungary",
+        "Greece",
+        "Portugal",
+        "Spain"
+      ],
+      "say": "On the way, Poland overtook Hungary, Greece and Portugal, and it's now within five percent of Spain."
+    },
+    {
+      "id": "hook_c",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "overlay": "title",
+      "say": "This is how it happened, in thirty-five years of numbers, and what those numbers don't show."
+    },
+    {
+      "id": "measure_a",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "card": [
+        "What we're measuring",
+        "GDP per person, adjusted for inflation and for prices in each country. Source: World Bank"
+      ],
+      "say": "First, what we're measuring. This is GDP per person: the value of everything a country produces in a year, divided by its population. It's in constant international dollars, which take out both inflation and the differences in what things cost from one country to another."
+    },
+    {
+      "id": "measure_b",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "card": [
+        "Not the whole story",
+        "It doesn't say who gets the money, or how many hours it takes to earn it"
+      ],
+      "say": "It's the standard way to compare average living standards between countries. It isn't everything: it doesn't tell you who gets the money, or how many hours people work for it. We'll come back to that."
+    },
+    {
+      "id": "measure_c",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "card": [
+        "Ten countries",
+        "Germany, France, the UK, Italy · Spain, Portugal, Greece · Czechia, Hungary and Poland"
+      ],
+      "say": "We're following ten countries: the four biggest economies of western Europe, three from the south, and three from central Europe: Czechia, Hungary and Poland."
+    },
+    {
+      "id": "y1990_a",
+      "view": "line",
+      "race": {
+        "at": 1990
+      },
+      "focus": [
+        "Poland"
+      ],
+      "note": "1990 · Poland $12,821 · the lowest of the ten",
+      "say": "1990. Communism in Poland has just ended. Poland's figure is 12,821 dollars a person, the lowest on this chart."
+    },
+    {
+      "id": "y1990_b",
+      "view": "line",
+      "race": {
+        "at": 1990
+      },
+      "focus": [
+        "Poland",
+        "Hungary",
+        "Greece",
+        "Portugal",
+        "Germany"
+      ],
+      "note": "Hungary $21,297 · Greece $26,916 · Germany $42,355",
+      "say": "Hungary is at 21,297. Greece and Portugal, at about 27,000. And Germany, at 42,355: more than three times Poland."
+    },
+    {
+      "id": "shock_a",
+      "view": "line",
+      "race": {
+        "at": 1990
+      },
+      "card": [
+        "Shock therapy",
+        "From 1 January 1990: prices freed, support for state firms cut, the currency made convertible"
+      ],
+      "say": "On the first of January 1990, Poland started a fast and painful reform programme, often called shock therapy. Prices were freed almost overnight, support for state firms was cut, and the currency became convertible."
+    },
+    {
+      "id": "shock_b",
+      "view": "line",
+      "race": {
+        "from": 1990,
+        "to": 1994
+      },
+      "focus": [
+        "Poland"
+      ],
+      "note": "1991: down 7% · back above the 1990 level in 1994",
+      "say": "The first years hurt. In 1991, the figure fell by seven percent, and unemployment rose fast. Poland only got back above its 1990 level in 1994."
+    },
+    {
+      "id": "growth_90s",
+      "view": "line",
+      "race": {
+        "from": 1994,
+        "to": 2000
+      },
+      "focus": [
+        "Poland",
+        "Hungary"
+      ],
+      "say": "But then the economy grew, and it kept on growing."
+    },
+    {
+      "id": "y2000",
+      "view": "line",
+      "race": {
+        "at": 2000
+      },
+      "focus": [
+        "Poland",
+        "Hungary"
+      ],
+      "note": "2000 · Poland $18,566 · Hungary $22,118",
+      "say": "By 2000, Poland is at 18,566 dollars. Still the lowest of the ten, but its gap to Hungary has more than halved."
+    },
+    {
+      "id": "eu_a",
+      "view": "line",
+      "race": {
+        "at": 2004
+      },
+      "focus": [
+        "Poland"
+      ],
+      "note": "1 May 2004 · Poland joins the EU at $20,879",
+      "say": "2004. Poland joins the European Union, together with nine other countries, including Czechia and Hungary. Poland's figure: 20,879 dollars a person."
+    },
+    {
+      "id": "eu_b",
+      "view": "line",
+      "race": {
+        "at": 2004
+      },
+      "card": [
+        "What membership brought",
+        "A single market to sell into · western investment · EU funds for roads, railways and water"
+      ],
+      "say": "Membership brought three big things. Polish firms could sell freely across the single market. Western companies built factories and offices. And EU funds paid for new roads, railways and water systems."
+    },
+    {
+      "id": "eu_c",
+      "view": "line",
+      "race": {
+        "at": 2004
+      },
+      "focus": [
+        "Poland",
+        "United Kingdom",
+        "Germany"
+      ],
+      "say": "It also opened western job markets. Hundreds of thousands of Poles moved to work in the UK, in Ireland and later in Germany, and many of them sent money home."
+    },
+    {
+      "id": "eu_run",
+      "view": "line",
+      "race": {
+        "from": 2004,
+        "to": 2008
+      },
+      "focus": [
+        "Poland",
+        "Czechia"
+      ],
+      "note": "2004 to 2008 · Poland up 22%, the fastest of the ten",
+      "say": "From 2004 to 2008, Poland's figure rose by 22 percent, the fastest of the ten. Czechia was close behind."
+    },
+    {
+      "id": "crisis_a",
+      "view": "line",
+      "race": {
+        "from": 2008,
+        "to": 2010
+      },
+      "focus": [
+        "Poland",
+        "Greece",
+        "Spain"
+      ],
+      "note": "Greece · $41,709 in 2008 · $37,567 in 2010",
+      "say": "Then the financial crisis hits Europe. Watch Greece: 41,709 dollars a person in 2008, down to 37,567 by 2010. Spain falls too, and so does almost everyone else."
+    },
+    {
+      "id": "crisis_b",
+      "view": "line",
+      "race": {
+        "at": 2010
+      },
+      "focus": [
+        "Poland"
+      ],
+      "note": "2009 · Poland grew 2.6% · every other EU economy shrank",
+      "say": "Poland doesn't fall. In 2009, its economy grew by two point six percent. Every other country in today's European Union shrank."
+    },
+    {
+      "id": "crisis_c",
+      "view": "line",
+      "race": {
+        "at": 2010
+      },
+      "card": [
+        "Why Poland held up",
+        "A large home market, a currency that fell and made exports cheaper, and EU funds that kept coming"
+      ],
+      "say": "Economists usually point to a few reasons: a large home market that depends less on exports, a currency that fell and made Polish goods cheaper abroad, and EU money that kept on arriving."
+    },
+    {
+      "id": "pass_hu",
+      "view": "line",
+      "race": {
+        "at": 2011
+      },
+      "focus": [
+        "Poland",
+        "Hungary"
+      ],
+      "cross": "Hungary",
+      "say": "And now, the crossings. In 2011, Poland passes Hungary.",
+      "note": "2011 · Poland passes Hungary"
+    },
+    {
+      "id": "pass_gr",
+      "view": "line",
+      "race": {
+        "from": 2011,
+        "to": 2015
+      },
+      "focus": [
+        "Poland",
+        "Greece"
+      ],
+      "say": "Greece's debt crisis keeps pulling its line down. By 2013, it has lost about a quarter of its 2008 level."
+    },
+    {
+      "id": "pass_gr_b",
+      "view": "line",
+      "race": {
+        "at": 2015
+      },
+      "focus": [
+        "Poland",
+        "Greece"
+      ],
+      "cross": "Greece",
+      "say": "In 2015, Poland passes Greece.",
+      "note": "2015 · Poland passes Greece"
+    },
+    {
+      "id": "pass_pt",
+      "view": "line",
+      "race": {
+        "from": 2015,
+        "to": 2019
+      },
+      "focus": [
+        "Poland",
+        "Portugal"
+      ],
+      "say": "Then Portugal. Through the late 2010s, the gap between them halves."
+    },
+    {
+      "id": "pass_pt_b",
+      "view": "line",
+      "race": {
+        "at": 2020
+      },
+      "focus": [
+        "Poland",
+        "Portugal"
+      ],
+      "cross": "Portugal",
+      "say": "In 2020, the pandemic year, Portugal's figure falls by eight percent. Poland's dips by less than one percent, and Poland moves ahead.",
+      "note": "2020 · Poland passes Portugal"
+    },
+    {
+      "id": "y2025_lead",
+      "view": "line",
+      "race": {
+        "from": 2020,
+        "to": 2025
+      },
+      "focus": [
+        "Poland"
+      ],
+      "say": "After the pandemic, Poland bounces straight back: up eight and a half percent in 2021 alone."
+    },
+    {
+      "id": "y2025_a",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Poland"
+      ],
+      "note": "2025 · Poland $46,925 · 3.7 times its 1990 level",
+      "say": "2025. Poland: 46,925 dollars a person. That's three point seven times its 1990 level, after inflation."
+    },
+    {
+      "id": "y2025_b",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Spain",
+        "Czechia",
+        "Italy",
+        "United Kingdom",
+        "Germany",
+        "Poland"
+      ],
+      "note": "Spain $49,318 · Czechia $49,292 · Germany $62,824",
+      "say": "Spain: 49,318. Czechia, almost exactly the same. Italy and the UK, about 54,000. And Germany, 62,824."
+    },
+    {
+      "id": "y2025_c",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Poland",
+        "Germany",
+        "Spain"
+      ],
+      "card": [
+        "From 30% to 75%",
+        "Poland's GDP per person as a share of Germany's, 1990 and 2025. Of Spain's: from 40% to 95%"
+      ],
+      "say": "Poland has gone from 30 percent of Germany's level to 75 percent, and from 40 percent of Spain's to 95."
+    },
+    {
+      "id": "catch_intro",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "say": "But this line doesn't show everything. Here are three things it misses."
+    },
+    {
+      "id": "hours_a",
+      "view": "hours",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Poland",
+        "Germany"
+      ],
+      "say": "First, hours. In 2023, the average Polish worker worked about 1,807 hours. The average German worked 1,335. That's 472 hours more: about twelve extra forty-hour weeks.",
+      "stat": [
+        "+472 hours",
+        "a year more than in Germany, about twelve 40-hour weeks"
+      ]
+    },
+    {
+      "id": "hours_b",
+      "view": "hours",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Greece",
+        "Poland"
+      ],
+      "say": "Of these ten countries, only Greece works longer.",
+      "stat": [
+        "1,893 hours",
+        "Greece: the only one of the ten that works longer"
+      ]
+    },
+    {
+      "id": "per_hour",
+      "view": "hours",
+      "race": {
+        "at": 2025
+      },
+      "panel": "perHour",
+      "say": "So per hour, the gap is much wider. A German worker produces about 82 dollars of output an hour. A Polish worker, about 47. Per person, Poland was at about 70 percent of Germany in 2023. Per hour worked, it was at 57."
+    },
+    {
+      "id": "regions_a",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "panel": "regions",
+      "say": "Second, not all of Poland is catching up at the same speed. Eurostat compares regions with the EU average, per person and adjusted for prices. In 2023, the region around Warsaw was at 155 percent of that average."
+    },
+    {
+      "id": "regions_b",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "panel": "regions",
+      "say": "Lubelskie, in the east, was at 53 percent. In 2004, the two were at 108 and 37. Both have risen, but the gap between them has grown."
+    },
+    {
+      "id": "pop_a",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "panel": "population",
+      "say": "Third, people. Poland's population has stayed at about 38 million since 1990. The UN's central projection has it falling to about 33 million by 2050, and to 19 million by 2100."
+    },
+    {
+      "id": "pop_b",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "panel": "population",
+      "say": "Fewer workers make growth harder. More of it will have to come from producing more in each hour, not from working longer."
+    },
+    {
+      "id": "next_a",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Poland",
+        "Spain"
+      ],
+      "note": "2015 to 2025 · Poland +4.0% a year · Spain +1.4%",
+      "say": "So, what's next? Over the last ten years, Poland's figure grew by about four percent a year. Spain's grew by less than one and a half."
+    },
+    {
+      "id": "next_b",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Poland",
+        "Spain"
+      ],
+      "note": "Projection: Poland passes Spain in about 2 years",
+      "say": "If both kept that pace, and that's a big if, Poland would pass Spain in about two years. That's a simple projection, not a forecast."
+    },
+    {
+      "id": "next_c",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Poland"
+      ],
+      "note": "Since 1990 · Poland +3.8% a year · next: Hungary +1.9%",
+      "say": "In thirty-five years, Poland went from the bottom of this chart to within reach of Spain and Czechia. None of the other nine came close to its pace."
+    },
+    {
+      "id": "take_1",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "take": [
+        "3.7 times its 1990 level",
+        "GDP per person, after inflation and price differences"
+      ],
+      "say": "Three things to take away. One: Poland's GDP per person, after inflation and prices, is three point seven times what it was in 1990."
+    },
+    {
+      "id": "take_2",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "take": [
+        "Past Hungary, Greece and Portugal",
+        "In 2011, 2015 and 2020. Now at 95% of Spain"
+      ],
+      "say": "Two: it passed Hungary in 2011, Greece in 2015 and Portugal in 2020, and it's now at 95 percent of Spain."
+    },
+    {
+      "id": "take_3",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "take": [
+        "The catch-up isn't finished",
+        "Long hours, a growing gap between regions, and a shrinking population"
+      ],
+      "say": "Three: the catch-up isn't finished. Poles work long hours, Warsaw has pulled far ahead of the east, and the population is set to shrink."
+    },
+    {
+      "id": "next",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "say": "Next on Terrachart: how long Europeans live, and how the south overtook the north."
+    },
+    {
+      "id": "end",
+      "view": "line",
+      "race": {
+        "at": 2025
+      },
+      "say": "Sources are in the description. If you live in Poland, tell us: does this match what you've seen where you live? We read every comment."
+    }
+  ]
+}

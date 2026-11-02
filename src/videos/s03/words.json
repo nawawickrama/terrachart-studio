@@ -1,0 +1,15 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "THE EU'S REAL #1 MINIMUM WAGE",
+  "subtitle": "Gross monthly minimum wage, July 2026",
+  "countries": ["Luxembourg", "Ireland", "Germany", "Netherlands", "Belgium"],
+  "focus": ["Luxembourg", "Germany"],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 3.2 } },
+  "lines": [
+    { "id": "a", "race": { "at": 0 }, "say": "Luxembourg has the EU's highest minimum wage: 2,771 euros a month." },
+    { "id": "b", "race": { "from": 0, "to": 1 }, "say": "But Luxembourg is expensive. Now count what each wage actually buys." },
+    { "id": "c", "race": { "at": 1 }, "say": "Germany takes first place, with 2,164 in buying power, just ahead of Luxembourg's 2,108." },
+    { "id": "d", "race": { "at": 1 }, "say": "And Ireland drops from second to fifth." },
+    { "id": "e", "race": { "at": 1 }, "say": "All 22 countries, ranked both ways, on our channel." }
+  ]
+}

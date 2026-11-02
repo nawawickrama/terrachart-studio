@@ -1,0 +1,186 @@
+{
+ "source": "Eurostat, Monthly minimum wages (earn_mw_cur), downloaded 2 Nov 2026 (last updated 31 Jul 2026)",
+ "unit": "EUR and PPS, July 2026",
+ "years": [
+  0,
+  1
+ ],
+ "countries": [
+  {
+   "name": "Luxembourg",
+   "code": "LU",
+   "values": [
+    2771,
+    2108
+   ]
+  },
+  {
+   "name": "Ireland",
+   "code": "IE",
+   "values": [
+    2391,
+    1756
+   ]
+  },
+  {
+   "name": "Germany",
+   "code": "DE",
+   "values": [
+    2343,
+    2164
+   ]
+  },
+  {
+   "name": "Netherlands",
+   "code": "NL",
+   "values": [
+    2338,
+    2023
+   ]
+  },
+  {
+   "name": "Belgium",
+   "code": "BE",
+   "values": [
+    2234,
+    1922
+   ]
+  },
+  {
+   "name": "France",
+   "code": "FR",
+   "values": [
+    1867,
+    1692
+   ]
+  },
+  {
+   "name": "Slovenia",
+   "code": "SI",
+   "values": [
+    1482,
+    1660
+   ]
+  },
+  {
+   "name": "Spain",
+   "code": "ES",
+   "values": [
+    1425,
+    1556
+   ]
+  },
+  {
+   "name": "Lithuania",
+   "code": "LT",
+   "values": [
+    1153,
+    1393
+   ]
+  },
+  {
+   "name": "Poland",
+   "code": "PL",
+   "values": [
+    1119,
+    1547
+   ]
+  },
+  {
+   "name": "Cyprus",
+   "code": "CY",
+   "values": [
+    1088,
+    1220
+   ]
+  },
+  {
+   "name": "Greece",
+   "code": "GR",
+   "values": [
+    1073,
+    1229
+   ]
+  },
+  {
+   "name": "Portugal",
+   "code": "PT",
+   "values": [
+    1073,
+    1240
+   ]
+  },
+  {
+   "name": "Croatia",
+   "code": "HR",
+   "values": [
+    1050,
+    1339
+   ]
+  },
+  {
+   "name": "Malta",
+   "code": "MT",
+   "values": [
+    994,
+    1081
+   ]
+  },
+  {
+   "name": "Estonia",
+   "code": "EE",
+   "values": [
+    946,
+    935
+   ]
+  },
+  {
+   "name": "Czechia",
+   "code": "CZ",
+   "values": [
+    923,
+    1015
+   ]
+  },
+  {
+   "name": "Slovakia",
+   "code": "SK",
+   "values": [
+    915,
+    1074
+   ]
+  },
+  {
+   "name": "Hungary",
+   "code": "HU",
+   "values": [
+    906,
+    1048
+   ]
+  },
+  {
+   "name": "Romania",
+   "code": "RO",
+   "values": [
+    825,
+    1317
+   ]
+  },
+  {
+   "name": "Latvia",
+   "code": "LV",
+   "values": [
+    780,
+    938
+   ]
+  },
+  {
+   "name": "Bulgaria",
+   "code": "BG",
+   "values": [
+    620,
+    993
+   ]
+  }
+ ]
+}
