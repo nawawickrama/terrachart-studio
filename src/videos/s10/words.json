@@ -1,0 +1,14 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "LAST PLACE: GERMANY",
+  "subtitle": "Hours worked in a year by the average worker, 2023",
+  "countries": ["Greece", "Italy", "Spain", "France", "Germany"],
+  "focus": ["Germany"],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "a": 0.8 } },
+  "lines": [
+    { "id": "a", "race": { "at": 2023 }, "say": "Who works the fewest hours in Europe? Not Spain. Not Italy." },
+    { "id": "b", "race": { "at": 2023 }, "say": "Germany. The average German worker puts in 1,335 hours a year. A Greek worker, 1,893." },
+    { "id": "c", "race": { "at": 2023 }, "say": "Why? Lots of part-time work, long holidays, and shorter weeks agreed with unions." },
+    { "id": "d", "race": { "at": 2023 }, "say": "Croatia tops the list, at 1,974. All 31 countries are in our full video." }
+  ]
+}

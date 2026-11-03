@@ -7,6 +7,8 @@ import l01data from "./l01/data.json";
 import l02rank from "./l02/rank.json";
 import l03data from "./l03/data.json";
 import l04lines from "./l04/lines.json";
+import l05lines from "./l05/lines.json";
+import l05rank from "./l05/rank.json";
 import s01timing from "./s01/timing.json";
 import s01words from "./s01/words.json";
 import s02timing from "./s02/timing.json";
@@ -23,11 +25,18 @@ export { S07, S07_FRAMES } from "./s07/S07";
 import s08timing from "./s08/timing.json";
 import s08words from "./s08/words.json";
 export { S09, S09_FRAMES } from "./s09/S09";
+import s10timing from "./s10/timing.json";
+import s10words from "./s10/words.json";
+import s11timing from "./s11/timing.json";
+import s11words from "./s11/words.json";
 
 const gdp = l01data as RaceData;
 const wages = l02rank as RaceData;
 const gdppc = l03data as RaceData;
 const lifeExp = l04lines as RaceData;
+const hoursRank = l05rank as RaceData;
+const hoursLines = l05lines as RaceData;
+const HOURS_SOURCE = "Penn World Table (2025) via Our World in Data";
 const GDP_SOURCE = "World Bank, GDP (current US$)";
 const WAGE_SOURCE = "Eurostat (earn_mw_cur), July 2026. PPS = purchasing power standards";
 const WAGE_LABELS: [string, string] = ["In euros", "In buying power"];
@@ -78,6 +87,36 @@ export const S08: React.FC = () => (
   />
 );
 
+export const S10: React.FC = () => (
+  <StageShort
+    words={s10words as StageWords}
+    timing={s10timing.timing}
+    data={hoursRank}
+    voiceDir="voice/s10"
+    source={HOURS_SOURCE}
+    music="music/terrachart-bed-05.wav"
+    labels={["2023", "2023"]}
+    format={(v) => `${Math.round(v).toLocaleString("en-GB")} h`}
+  />
+);
+
+export const S11: React.FC = () => (
+  <LineShort
+    words={s11words as LineShortWords}
+    timing={s11timing.timing}
+    data={hoursLines}
+    voiceDir="voice/s11"
+    source={HOURS_SOURCE}
+    music="music/terrachart-bed-05.wav"
+    yMin={1200}
+    yMax={2200}
+    yStep={200}
+    xStep={10}
+    format={(v) => Math.round(v).toLocaleString("en-GB")}
+    axisFormat={(v) => v.toLocaleString("en-GB")}
+  />
+);
+
 export const S01_FRAMES = duelTimeline(s01words as ShortWords, s01timing.timing).total;
 export const S02_FRAMES = duelTimeline(s02words as ShortWords, s02timing.timing).total;
 export const S03_FRAMES = stageTimeline(s03words as StageWords, s03timing.timing).total;
@@ -85,3 +124,5 @@ export const S04_FRAMES = stageTimeline(s04words as StageWords, s04timing.timing
 export const S05_FRAMES = duelTimeline(s05words as ShortWords, s05timing.timing).total;
 export const S06_FRAMES = lineShortTimeline(s06words as LineShortWords, s06timing.timing).total;
 export const S08_FRAMES = lineShortTimeline(s08words as LineShortWords, s08timing.timing).total;
+export const S10_FRAMES = stageTimeline(s10words as StageWords, s10timing.timing).total;
+export const S11_FRAMES = lineShortTimeline(s11words as LineShortWords, s11timing.timing).total;

@@ -40,7 +40,9 @@ export const StageShort: React.FC<{
   source: string;
   music: string;
   labels: [string, string];
-}> = ({ words, timing, data, voiceDir, source, music, labels }) => {
+  /** How a value reads at the end of a bar. Euros, then PPS, by default. */
+  format?: (v: number) => string;
+}> = ({ words, timing, data, voiceDir, source, music, labels, format }) => {
   const frame = useCurrentFrame();
   const { beats, total, stageAt } = stageTimeline(words, timing);
   const stage = stageAt(frame);
@@ -48,7 +50,7 @@ export const StageShort: React.FC<{
   const shown = { ...data, countries: data.countries.filter((c) => words.countries.includes(c.name)) };
   const line = words.lines[lineIndexAt(words.lines, beats, frame)];
   const captionIn = ramp(frame, beats[line.id].from - sec(0.1), sec(0.25));
-  const fmt = stage < 0.5 ? (v: number) => `€${n(v)}` : (v: number) => `${n(v)} PPS`;
+  const fmt = format ?? (stage < 0.5 ? (v: number) => `€${n(v)}` : (v: number) => `${n(v)} PPS`);
   const rows = words.countries.length;
   return (
     <AbsoluteFill style={{ background: `linear-gradient(180deg, ${C.navy}, ${C.navyDeep})`, fontFamily: FONT }}>

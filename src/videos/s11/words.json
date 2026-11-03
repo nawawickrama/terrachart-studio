@@ -1,0 +1,16 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "1970: 1,972 HOURS",
+  "subtitle": "Hours worked in a year by the average worker",
+  "countries": ["Germany", "Greece"],
+  "hero": "Germany",
+  "crossings": [],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 3.6 } },
+  "lines": [
+    { "id": "a", "race": { "at": 1970 }, "say": "In 1970, the average German worker put in 1,972 hours a year. Almost exactly what a worker in Croatia does today." },
+    { "id": "b", "race": { "from": 1970, "to": 2022 }, "say": "Now watch the German working year." },
+    { "id": "c", "race": { "at": 2023 }, "say": "By 2023, it was down to 1,335 hours. A third shorter." },
+    { "id": "d", "race": { "at": 2023 }, "say": "Greece fell much less, from 2,114 hours to 1,893." },
+    { "id": "e", "race": { "at": 2023 }, "say": "Richer countries tend to buy back their time. Who works the longest now? It's in our full video." }
+  ]
+}

@@ -15,6 +15,7 @@ The channel's videos, written as code with [Remotion](https://www.remotion.dev) 
 | `L04` | Life expectancy in Europe, 1950–2023 (tile map of 40 countries, line race, pandemic close-up) | 8:13 |
 | `S08`, `S09` | Shorts: Spain +22 years (line race); Germany vs Spain, health spending and years of life | 42 s, 36 s |
 | `L05` | Who works the longest hours in Europe (31-country ranking, 1970–2023 line race, panels for 1870, output per hour, the US and Asia) | 8:48 |
+| `S10`, `S11` | Shorts: Germany works the fewest hours (ranking); Germany 1970 vs now (line race) | 30 s, 39 s |
 
 The tile map (`src/shared/TileMap.tsx`) puts one square per country roughly where it sits in Europe and colours it by value; its root has `zIndex: 0` so raised tiles never cover cards, title cards or end screens drawn after it.
 
