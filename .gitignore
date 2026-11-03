@@ -4,3 +4,9 @@ out
 .env
 # Music beds are about 100 MB each (over GitHub's limit); rebuild with: python3 scripts/music.py <id> <seconds>
 public/music/*.wav
+# Voice recordings are about 40 MB per long video. The ones already in git (L01–L05, S01–S11) stay;
+# new ones are left out. Rebuild any video's narration with: node scripts/voice.mjs <id>
+public/voice/*
+!public/voice/l0[1-5]/
+!public/voice/s0[1-9]/
+!public/voice/s1[01]/

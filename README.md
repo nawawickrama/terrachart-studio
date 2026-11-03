@@ -54,4 +54,6 @@ Data for a race lives next to it (`data.json`), made from the downloaded source 
 - Flags and logo: drawn in code (`src/shared/Flag.tsx`, `src/shared/Logo.tsx`).
 - Remotion: free for individuals and companies of up to three people.
 
+Voice recordings from L06 and S12 on are not in git (about 40 MB per long video). On another Mac, run `node scripts/voice.mjs <id>` before rendering; it may change the timing by a fraction of a second, and the animation follows.
+
 The Kokoro model was copied from the Coredile videos project into `node_modules/@huggingface/transformers/.cache`. A fresh `npm install` downloads it again (about 330 MB) on the first voice run.
