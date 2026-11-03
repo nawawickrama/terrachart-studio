@@ -1,0 +1,226 @@
+{
+ "source": "Penn World Table (2025) via Our World in Data, annual working hours per worker, downloaded 2 Nov 2026",
+ "unit": "hours a year, 2023",
+ "years": [
+  2023
+ ],
+ "countries": [
+  {
+   "name": "Croatia",
+   "code": "HR",
+   "values": [
+    1974
+   ]
+  },
+  {
+   "name": "Greece",
+   "code": "GR",
+   "values": [
+    1893
+   ]
+  },
+  {
+   "name": "Malta",
+   "code": "MT",
+   "values": [
+    1848
+   ]
+  },
+  {
+   "name": "Cyprus",
+   "code": "CY",
+   "values": [
+    1840
+   ]
+  },
+  {
+   "name": "Romania",
+   "code": "RO",
+   "values": [
+    1826
+   ]
+  },
+  {
+   "name": "Poland",
+   "code": "PL",
+   "values": [
+    1807
+   ]
+  },
+  {
+   "name": "Czechia",
+   "code": "CZ",
+   "values": [
+    1774
+   ]
+  },
+  {
+   "name": "Portugal",
+   "code": "PT",
+   "values": [
+    1735
+   ]
+  },
+  {
+   "name": "Italy",
+   "code": "IT",
+   "values": [
+    1701
+   ]
+  },
+  {
+   "name": "Hungary",
+   "code": "HU",
+   "values": [
+    1668
+   ]
+  },
+  {
+   "name": "Bulgaria",
+   "code": "BG",
+   "values": [
+    1659
+   ]
+  },
+  {
+   "name": "Ireland",
+   "code": "IE",
+   "values": [
+    1654
+   ]
+  },
+  {
+   "name": "Lithuania",
+   "code": "LT",
+   "values": [
+    1640
+   ]
+  },
+  {
+   "name": "Spain",
+   "code": "ES",
+   "values": [
+    1638
+   ]
+  },
+  {
+   "name": "Latvia",
+   "code": "LV",
+   "values": [
+    1625
+   ]
+  },
+  {
+   "name": "Slovakia",
+   "code": "SK",
+   "values": [
+    1621
+   ]
+  },
+  {
+   "name": "Estonia",
+   "code": "EE",
+   "values": [
+    1606
+   ]
+  },
+  {
+   "name": "Belgium",
+   "code": "BE",
+   "values": [
+    1593
+   ]
+  },
+  {
+   "name": "Slovenia",
+   "code": "SI",
+   "values": [
+    1588
+   ]
+  },
+  {
+   "name": "Switzerland",
+   "code": "CH",
+   "values": [
+    1529
+   ]
+  },
+  {
+   "name": "United Kingdom",
+   "code": "GB",
+   "values": [
+    1523
+   ]
+  },
+  {
+   "name": "Finland",
+   "code": "FI",
+   "values": [
+    1497
+   ]
+  },
+  {
+   "name": "France",
+   "code": "FR",
+   "values": [
+    1487
+   ]
+  },
+  {
+   "name": "Luxembourg",
+   "code": "LU",
+   "values": [
+    1452
+   ]
+  },
+  {
+   "name": "Iceland",
+   "code": "IS",
+   "values": [
+    1452
+   ]
+  },
+  {
+   "name": "Netherlands",
+   "code": "NL",
+   "values": [
+    1439
+   ]
+  },
+  {
+   "name": "Austria",
+   "code": "AT",
+   "values": [
+    1438
+   ]
+  },
+  {
+   "name": "Sweden",
+   "code": "SE",
+   "values": [
+    1432
+   ]
+  },
+  {
+   "name": "Norway",
+   "code": "NO",
+   "values": [
+    1412
+   ]
+  },
+  {
+   "name": "Denmark",
+   "code": "DK",
+   "values": [
+    1380
+   ]
+  },
+  {
+   "name": "Germany",
+   "code": "DE",
+   "values": [
+    1335
+   ]
+  }
+ ]
+}

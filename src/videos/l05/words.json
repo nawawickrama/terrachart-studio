@@ -1,0 +1,548 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.95
+  },
+  "music": {
+    "file": "music/terrachart-bed-05.wav",
+    "credit": "Music: original score by Terrachart"
+  },
+  "pacing": {
+    "lead": 1,
+    "tail": 11.4,
+    "pause": 1,
+    "pauseAfter": {
+      "hook_b": 1.2,
+      "hook_c": 1.6,
+      "measure_d": 1.6,
+      "top_b": 1.2,
+      "bottom_a": 1.4,
+      "bottom_b": 1.6,
+      "y1970_b": 1.2,
+      "run": 5,
+      "why_a": 1.2,
+      "pay_c": 1.6,
+      "take_3": 1.2,
+      "next": 1.2,
+      "week": 1.2,
+      "nl": 1.4,
+      "long_c": 1.6,
+      "hour_c": 1.6,
+      "asia": 1.6,
+      "y2023_c": 1.4,
+      "covid": 1.4
+    }
+  },
+  "chapters": {
+    "hook_a": "1,335 hours vs 1,893",
+    "measure_a": "What we're measuring",
+    "top_a": "The 2023 ranking",
+    "y1970_a": "Since 1970",
+    "long_a": "Since 1870",
+    "why_a": "Why Germany is last",
+    "hour_a": "Does it pay?",
+    "pay_a": "Long hours, low pay?",
+    "us_a": "The US and Asia",
+    "take_1": "What it means"
+  },
+  "lines": [
+    {
+      "id": "hook_a",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Germany"
+      ],
+      "note": "2023 · Germany 1,335 hours a year",
+      "say": "Germany has a reputation for hard work. Yet the average German worker works fewer hours than anyone else in Europe: 1,335 a year."
+    },
+    {
+      "id": "hook_b",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Germany",
+        "Greece"
+      ],
+      "note": "2023 · Greece 1,893 hours · Germany 1,335",
+      "say": "A worker in Greece puts in 1,893. That's 558 hours more, or about fourteen extra working weeks."
+    },
+    {
+      "id": "hook_c",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "overlay": "title",
+      "say": "So who really works the longest hours in Europe, and does it pay?"
+    },
+    {
+      "id": "measure_a",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "What we're measuring",
+        "Hours actually worked in a year by the average worker. Source: Penn World Table, via Our World in Data"
+      ],
+      "say": "First, what we're measuring. These are the hours actually worked in a year by the average worker, from the Penn World Table, through Our World in Data."
+    },
+    {
+      "id": "measure_b",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "Everyone who works",
+        "Overtime counts, and so do part-time workers, which pulls some countries' averages down"
+      ],
+      "say": "They include overtime, and they include people who work part-time. That second part matters, as we'll see."
+    },
+    {
+      "id": "measure_c",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "Look at the big gaps",
+        "Countries count hours in slightly different ways, so small differences don't mean much"
+      ],
+      "say": "Countries count hours in slightly different ways, so treat small gaps with caution. The big patterns are real."
+    },
+    {
+      "id": "measure_d",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "31 countries",
+        "The 27 EU countries, plus the UK, Norway, Switzerland and Iceland"
+      ],
+      "say": "We're comparing thirty-one countries: the twenty-seven in the EU, plus the UK, Norway, Switzerland and Iceland."
+    },
+    {
+      "id": "top_a",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Croatia",
+        "Greece",
+        "Malta"
+      ],
+      "note": "2023 · Croatia 1,974 · Greece 1,893 · Malta 1,848",
+      "say": "Here's the ranking for 2023. At the top: Croatia, at 1,974 hours a year. Then Greece, at 1,893, and Malta, at 1,848."
+    },
+    {
+      "id": "top_b",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Cyprus",
+        "Romania",
+        "Poland"
+      ],
+      "note": "Cyprus 1,840 · Romania 1,826 · Poland 1,807",
+      "say": "Cyprus, 1,840. Romania, 1,826. And Poland, 1,807."
+    },
+    {
+      "id": "mid",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Italy",
+        "Spain",
+        "United Kingdom",
+        "France"
+      ],
+      "note": "Italy 1,701 · Spain 1,638 · UK 1,523 · France 1,487",
+      "say": "Further down, Italy works 1,701 hours a year, Spain 1,638, the UK 1,523, and France 1,487."
+    },
+    {
+      "id": "east",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Czechia",
+        "Hungary",
+        "Bulgaria",
+        "Estonia"
+      ],
+      "note": "Czechia 1,774 · Hungary 1,668 · Bulgaria 1,659 · Estonia 1,606",
+      "say": "And it isn't simply east against west. Czechia works 1,774 hours a year. But Hungary and Bulgaria work about 1,660, and Estonia about 1,600. All of them fewer than Italy."
+    },
+    {
+      "id": "bottom_a",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Sweden",
+        "Norway",
+        "Denmark",
+        "Germany"
+      ],
+      "note": "Sweden 1,432 · Norway 1,412 · Denmark 1,380 · Germany 1,335",
+      "say": "And at the bottom: Sweden, 1,432. Norway, 1,412. Denmark, 1,380. And last of all, Germany, at 1,335."
+    },
+    {
+      "id": "week",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Germany"
+      ],
+      "note": "1,335 hours a year ≈ 26 hours a week",
+      "say": "Spread across the whole year, with holidays and part-time jobs included, 1,335 hours works out at about 26 hours a week."
+    },
+    {
+      "id": "nl",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Netherlands",
+        "Austria"
+      ],
+      "note": "Netherlands 1,439 · Austria 1,438",
+      "say": "Just above them sit the Netherlands and Austria, both at about 1,440 hours. The Netherlands has the highest share of part-time workers in the EU, and that's a clue to what's going on here."
+    },
+    {
+      "id": "bottom_b",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Croatia",
+        "Germany"
+      ],
+      "note": "First to last: 639 hours, about 16 working weeks",
+      "say": "From first place to last, that's a gap of almost 640 hours a year. About sixteen working weeks."
+    },
+    {
+      "id": "y1970_a",
+      "view": "lines",
+      "race": {
+        "at": 1970
+      },
+      "focus": [
+        "Germany"
+      ],
+      "note": "1970 · Germany 1,972 hours a year",
+      "say": "Now go back to 1970. The average German worker then put in 1,972 hours a year. That's almost exactly what a worker in Croatia does today."
+    },
+    {
+      "id": "y1970_b",
+      "view": "lines",
+      "race": {
+        "at": 1970
+      },
+      "focus": [
+        "Ireland"
+      ],
+      "note": "1970 · Ireland 2,359 hours a year",
+      "say": "And of the countries on this chart, Ireland worked the longest: 2,359 hours a year."
+    },
+    {
+      "id": "run",
+      "view": "lines",
+      "race": {
+        "from": 1970,
+        "to": 2019
+      },
+      "say": "Now watch the next five decades."
+    },
+    {
+      "id": "covid",
+      "view": "lines",
+      "race": {
+        "at": 2020
+      },
+      "focus": [
+        "United Kingdom",
+        "Italy"
+      ],
+      "note": "2020 · UK 1,392 hours · Italy 1,514",
+      "say": "Then came 2020. Lockdowns and furlough schemes cut hours almost everywhere. In Britain, the working year fell from 1,545 hours to 1,392. In Italy, from 1,680 to 1,514."
+    },
+    {
+      "id": "y2023_a",
+      "view": "lines",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Germany"
+      ],
+      "note": "1970 to 2023 · Germany −32%",
+      "say": "By 2023, most countries were back close to where they'd been. And the German working year had shrunk by a third since 1970, to 1,335 hours. That's the biggest fall of any country on this chart."
+    },
+    {
+      "id": "y2023_b",
+      "view": "lines",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Ireland",
+        "Greece"
+      ],
+      "note": "Ireland −30% · Greece −10%",
+      "say": "Ireland came down a long way too, by 30 percent. Greece fell much less, from 2,114 hours to 1,893."
+    },
+    {
+      "id": "y2023_c",
+      "view": "lines",
+      "race": {
+        "at": 2023
+      },
+      "say": "Almost everywhere in Europe, working years got shorter as countries got richer."
+    },
+    {
+      "id": "long_a",
+      "view": "lines",
+      "race": {
+        "at": 2023
+      },
+      "panel": "long",
+      "say": "Go back further, and the change is even bigger. In 1870, a German worker put in about 3,300 hours a year. That's more than sixty hours a week, almost every week of the year."
+    },
+    {
+      "id": "long_b",
+      "view": "lines",
+      "race": {
+        "at": 2023
+      },
+      "panel": "long",
+      "say": "In France it was about 3,200 hours. In the United States, about 3,100. In Britain, about 2,750. The numbers before 1950 come from a different study, and they only cover full-time workers outside farming, so they don't compare exactly with today's. But the direction is clear."
+    },
+    {
+      "id": "long_c",
+      "view": "lines",
+      "race": {
+        "at": 2023
+      },
+      "panel": "long",
+      "say": "The average German worker today puts in about forty percent of the hours their great-great-grandparents did."
+    },
+    {
+      "id": "why_a",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Germany"
+      ],
+      "say": "So why is Germany at the bottom? There are three main reasons."
+    },
+    {
+      "id": "why_b",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "1. Part-time work",
+        "Germany has one of the highest shares of part-time workers in Europe, especially among women"
+      ],
+      "say": "First, part-time work. Germany has one of the highest shares of part-time workers in Europe, especially among women. They pull the average down."
+    },
+    {
+      "id": "why_c",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "2. Holidays",
+        "By law, at least 20 days of paid leave on a five-day week. Many contracts give 30, plus public holidays"
+      ],
+      "say": "Second, holidays. German law guarantees at least twenty days of paid leave on a five-day week. Many contracts give thirty, plus public holidays."
+    },
+    {
+      "id": "why_d",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "card": [
+        "3. Shorter full-time weeks",
+        "In many industries, agreed between unions and employers"
+      ],
+      "say": "Third, shorter full-time weeks in many industries, often agreed between unions and employers."
+    },
+    {
+      "id": "why_e",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Germany"
+      ],
+      "say": "So it isn't that Germans are lazy. Many of them simply work fewer hours, and get a lot done in each one."
+    },
+    {
+      "id": "hour_a",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "panel": "hour",
+      "say": "And that's the other side of the story. Take everything a country produces in a year and divide it by all the hours its people work."
+    },
+    {
+      "id": "hour_b",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "panel": "hour",
+      "say": "On the Penn World Table's figures, an hour of work in Germany produced about 83 dollars of output in 2023, adjusted for prices. In the United States, about the same. In Poland, about 47. In Greece, about 38."
+    },
+    {
+      "id": "hour_c",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "panel": "hour",
+      "say": "So a German hour produces about twice as much as a Greek one. The OECD's own figures show the same gap. That's mostly down to machines, technology and how firms are organised, not to how hard anyone tries."
+    },
+    {
+      "id": "pay_a",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Croatia",
+        "Greece",
+        "Romania",
+        "Poland"
+      ],
+      "say": "Now look at the top of the ranking again. Croatia, Greece, Romania, Poland. Mostly countries where wages are lower. When each hour earns less, people work more of them."
+    },
+    {
+      "id": "pay_b",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "focus": [
+        "Greece"
+      ],
+      "say": "And where more people work for themselves, as in Greece, hours tend to be longer too."
+    },
+    {
+      "id": "pay_c",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "note": "More in our video: Minimum Wages in the EU",
+      "say": "We looked at what those wages really buy in our video on minimum wages across the EU."
+    },
+    {
+      "id": "us_a",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "panel": "us",
+      "say": "For comparison, the average American worker put in 1,789 hours in 2023. That's more than 450 hours above Germany, and close to Poland."
+    },
+    {
+      "id": "us_b",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "panel": "us",
+      "say": "It wasn't always like that. In 1970, Germans actually worked more hours than Americans: 1,972 a year against 1,931. Since then, the American working year has shrunk by just seven percent."
+    },
+    {
+      "id": "asia",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "panel": "asia",
+      "say": "And Japan, famous for long office hours? 1,654 hours a year, fewer than Poland or Italy. South Korea worked 2,919 hours in 1970, the most of any country in this data. Today it's down to 1,910."
+    },
+    {
+      "id": "take_1",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "take": [
+        "Germany works the fewest hours",
+        "1,335 a year, against 1,974 in Croatia"
+      ],
+      "say": "Three things to take away. One: Germany works the fewest hours in Europe, 1,335 a year, while Croatia tops the list at 1,974."
+    },
+    {
+      "id": "take_2",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "take": [
+        "Working years got shorter",
+        "Germany's shrank by a third after 1970"
+      ],
+      "say": "Two: almost everywhere, working years got shorter. Germany's shrank by a third after 1970."
+    },
+    {
+      "id": "take_3",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "take": [
+        "Richer countries buy back time",
+        "Long hours aren't a sign of a strong economy"
+      ],
+      "say": "Three: long hours aren't a sign of a strong economy. The richer a country gets, the fewer hours its people tend to work. Part of being rich, it seems, is buying back your time."
+    },
+    {
+      "id": "next",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "say": "Next on Terrachart: what Europeans pay for electricity, and the winter it all went wrong."
+    },
+    {
+      "id": "end",
+      "view": "rank",
+      "race": {
+        "at": 2023
+      },
+      "say": "Sources are in the description. How many hours do you actually work in a normal week? Tell us in the comments."
+    }
+  ]
+}

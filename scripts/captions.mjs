@@ -16,7 +16,8 @@ const { lead, pause, pauseAfter = {} } = words.pacing;
 
 /** Splits text into pieces of at most about 84 characters (two lines of 42), at sentence or comma breaks where possible. */
 function pieces(text) {
-  const parts = text.match(/[^.?!:;,]+[.?!:;,]*\s*/g) ?? [text];
+  // A mark only breaks when a space follows it, so "1,335" stays whole.
+  const parts = text.match(/.+?(?:[.?!:;,]+(?=\s|$)|$)\s*/g) ?? [text];
   const out = [];
   let current = "";
   for (const p of parts) {

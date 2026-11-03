@@ -14,6 +14,9 @@ import { total as l03Frames } from "./videos/l03/timeline";
 import { L04 } from "./videos/l04/L04";
 import { L04ThumbA, L04ThumbB } from "./videos/l04/Thumbs";
 import { total as l04Frames } from "./videos/l04/timeline";
+import { L05 } from "./videos/l05/L05";
+import { L05ThumbA, L05ThumbB } from "./videos/l05/Thumbs";
+import { total as l05Frames } from "./videos/l05/timeline";
 import { S01, S01_FRAMES, S02, S02_FRAMES, S03, S03_FRAMES, S04, S04_FRAMES, S05, S05_FRAMES, S06, S06_FRAMES, S07, S07_FRAMES, S08, S08_FRAMES, S09, S09_FRAMES } from "./videos/shorts";
 
 export const Root: React.FC = () => (
@@ -30,6 +33,9 @@ export const Root: React.FC = () => (
     <Composition id="L04" component={L04} durationInFrames={l04Frames} fps={FPS} width={1920} height={1080} />
     <Composition id="L04ThumbA" component={L04ThumbA} durationInFrames={1} fps={FPS} width={1280} height={720} />
     <Composition id="L04ThumbB" component={L04ThumbB} durationInFrames={1} fps={FPS} width={1280} height={720} />
+    <Composition id="L05" component={L05} durationInFrames={l05Frames} fps={FPS} width={1920} height={1080} />
+    <Composition id="L05ThumbA" component={L05ThumbA} durationInFrames={1} fps={FPS} width={1280} height={720} />
+    <Composition id="L05ThumbB" component={L05ThumbB} durationInFrames={1} fps={FPS} width={1280} height={720} />
     <Composition id="S01" component={S01} durationInFrames={S01_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S02" component={S02} durationInFrames={S02_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S03" component={S03} durationInFrames={S03_FRAMES} fps={FPS} width={1080} height={1920} />
