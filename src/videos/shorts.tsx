@@ -31,6 +31,9 @@ import s10timing from "./s10/timing.json";
 import s10words from "./s10/words.json";
 import s11timing from "./s11/timing.json";
 import s11words from "./s11/words.json";
+import s12data from "./s12/data.json";
+import s12timing from "./s12/timing.json";
+import s12words from "./s12/words.json";
 import s13timing from "./s13/timing.json";
 import s13words from "./s13/words.json";
 import s14timing from "./s14/timing.json";
@@ -126,6 +129,23 @@ export const S11: React.FC = () => (
   />
 );
 
+export const S12: React.FC = () => (
+  <LineShort
+    words={s12words as LineShortWords}
+    timing={s12timing.timing}
+    data={s12data as RaceData}
+    voiceDir="voice/s12"
+    source="Eurostat (prc_hpi_a), rebased to 2010 = 100 by Terrachart"
+    music="music/terrachart-bed-02.wav"
+    yMin={50}
+    yMax={300}
+    yStep={50}
+    xStep={5}
+    format={(v) => `${v >= 100 ? "+" : "−"}${Math.abs(Math.round(v - 100))}%`}
+    axisFormat={(v) => (v === 100 ? "2010" : `${v > 100 ? "+" : "−"}${Math.abs(v - 100)}%`)}
+  />
+);
+
 export const S13: React.FC = () => (
   <StageShort
     words={s13words as StageWords}
@@ -173,5 +193,6 @@ export const S06_FRAMES = lineShortTimeline(s06words as LineShortWords, s06timin
 export const S08_FRAMES = lineShortTimeline(s08words as LineShortWords, s08timing.timing).total;
 export const S10_FRAMES = stageTimeline(s10words as StageWords, s10timing.timing).total;
 export const S11_FRAMES = lineShortTimeline(s11words as LineShortWords, s11timing.timing).total;
+export const S12_FRAMES = lineShortTimeline(s12words as LineShortWords, s12timing.timing).total;
 export const S13_FRAMES = stageTimeline(s13words as StageWords, s13timing.timing).total;
 export const S14_FRAMES = lineShortTimeline(s14words as LineShortWords, s14timing.timing).total;

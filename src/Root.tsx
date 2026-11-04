@@ -20,7 +20,7 @@ import { total as l05Frames } from "./videos/l05/timeline";
 import { L06 } from "./videos/l06/L06";
 import { L06ThumbA, L06ThumbB } from "./videos/l06/Thumbs";
 import { total as l06Frames } from "./videos/l06/timeline";
-import { S01, S01_FRAMES, S02, S02_FRAMES, S03, S03_FRAMES, S04, S04_FRAMES, S05, S05_FRAMES, S06, S06_FRAMES, S07, S07_FRAMES, S08, S08_FRAMES, S09, S09_FRAMES, S10, S10_FRAMES, S11, S11_FRAMES, S13, S13_FRAMES, S14, S14_FRAMES } from "./videos/shorts";
+import { S01, S01_FRAMES, S02, S02_FRAMES, S03, S03_FRAMES, S04, S04_FRAMES, S05, S05_FRAMES, S06, S06_FRAMES, S07, S07_FRAMES, S08, S08_FRAMES, S09, S09_FRAMES, S10, S10_FRAMES, S11, S11_FRAMES, S12, S12_FRAMES, S13, S13_FRAMES, S14, S14_FRAMES } from "./videos/shorts";
 
 export const Root: React.FC = () => (
   <>
@@ -53,6 +53,7 @@ export const Root: React.FC = () => (
     <Composition id="S09" component={S09} durationInFrames={S09_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S10" component={S10} durationInFrames={S10_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S11" component={S11} durationInFrames={S11_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S12" component={S12} durationInFrames={S12_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S13" component={S13} durationInFrames={S13_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S14" component={S14} durationInFrames={S14_FRAMES} fps={FPS} width={1080} height={1920} />
   </>

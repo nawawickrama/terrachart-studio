@@ -1,0 +1,78 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.98
+  },
+  "title": "ITALY: −2%",
+  "subtitle": "House prices since 2010, before inflation",
+  "countries": [
+    "Germany",
+    "Portugal",
+    "Italy"
+  ],
+  "hero": "Italy",
+  "crossings": [],
+  "pacing": {
+    "lead": 0.5,
+    "tail": 1.5,
+    "pause": 0.4,
+    "pauseAfter": {
+      "b": 1.2,
+      "d": 1.2
+    }
+  },
+  "lines": [
+    {
+      "id": "a",
+      "race": {
+        "at": 2010
+      },
+      "say": "Start in 2010, with house prices in Germany, Portugal and Italy on the same line."
+    },
+    {
+      "id": "b",
+      "race": {
+        "from": 2010,
+        "to": 2018
+      },
+      "say": "Germany climbs steadily. Portugal dips at first, then takes off. Italy slides."
+    },
+    {
+      "id": "c",
+      "race": {
+        "at": 2019
+      },
+      "say": "By 2019, the average Italian home is worth 17 percent less than in 2010."
+    },
+    {
+      "id": "d",
+      "race": {
+        "from": 2019,
+        "to": 2024
+      },
+      "say": "Then prices start rising almost everywhere."
+    },
+    {
+      "id": "e",
+      "race": {
+        "at": 2025
+      },
+      "say": "By 2025, German house prices are up 82 percent on 2010. Portugal's, 146 percent. Italy's? Still down 2 percent."
+    },
+    {
+      "id": "f",
+      "race": {
+        "at": 2025
+      },
+      "say": "Fifteen years, and an Italian home is worth a little less than when it started, before inflation."
+    },
+    {
+      "id": "g",
+      "race": {
+        "at": 2025
+      },
+      "say": "Where prices exploded instead: our full video on 28 November."
+    }
+  ]
+}
