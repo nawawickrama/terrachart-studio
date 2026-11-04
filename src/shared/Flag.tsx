@@ -143,6 +143,15 @@ const FLAGS: Record<string, React.ReactNode> = {
       <path d="M15 0 V30 M0 15 H30" stroke="#c8102e" strokeWidth={6} />
     </>
   ),
+  // The European Union: twelve gold stars in a ring, drawn as dots so they stay crisp at badge size.
+  EU: (
+    <>
+      <rect width={30} height={30} fill="#003399" />
+      {Array.from({ length: 12 }, (_, i) => (
+        <circle key={i} cx={15 + 8.5 * Math.sin((i * Math.PI) / 6)} cy={15 - 8.5 * Math.cos((i * Math.PI) / 6)} r={1.5} fill="#ffcc00" />
+      ))}
+    </>
+  ),
 };
 
 export const Flag: React.FC<{ code: string; size: number; style?: React.CSSProperties }> = ({ code, size, style }) => {

@@ -1,0 +1,576 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.95
+  },
+  "music": {
+    "file": "music/terrachart-bed-06.wav",
+    "credit": "Music: original score by Terrachart"
+  },
+  "pacing": {
+    "lead": 1,
+    "tail": 11.4,
+    "pause": 1,
+    "pauseAfter": {
+      "hook_b": 1.2,
+      "hook_c": 1.6,
+      "measure_c": 1.6,
+      "y2008_c": 1.2,
+      "run": 4,
+      "y2021_b": 1.6,
+      "shock_a": 3,
+      "shock_d": 1.4,
+      "caps_c": 1.4,
+      "peak_a": 3,
+      "now_a": 1.2,
+      "dk": 1.6,
+      "bottom": 1.4,
+      "ro": 1.6,
+      "real_b": 1.6,
+      "parts_e": 1.6,
+      "bill_c": 1.4,
+      "pay_b": 1.6,
+      "take_3": 1.2,
+      "next": 1.2
+    }
+  },
+  "chapters": {
+    "hook_a": "39 cents vs 11",
+    "measure_a": "What we're measuring",
+    "y2008_a": "2008",
+    "shock_a": "The 2022 shock",
+    "now_a": "Early 2026",
+    "real_a": "After inflation",
+    "parts_a": "Why prices differ",
+    "bill_a": "Your yearly bill",
+    "take_1": "What it means"
+  },
+  "lines": [
+    {
+      "id": "hook_a",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Ireland",
+        "Hungary"
+      ],
+      "note": "Early 2026 · Ireland 39c · Hungary 11c",
+      "say": "A household in Ireland pays 39 cents for every kilowatt-hour of electricity. In Hungary, 11 cents."
+    },
+    {
+      "id": "hook_b",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Ireland",
+        "Hungary"
+      ],
+      "note": "More than three times the price",
+      "say": "Same electricity, more than three times the price."
+    },
+    {
+      "id": "hook_c",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "overlay": "title",
+      "say": "So how did Europe's power bills get here? Here's every price since 2008, the year they exploded, and why the gap is so wide."
+    },
+    {
+      "id": "measure_a",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "card": [
+        "What we're measuring",
+        "The price a medium-sized household pays per kilowatt-hour. Source: Eurostat"
+      ],
+      "say": "First, what we're measuring. These are Eurostat's prices for what it calls a medium-sized household: one that uses between 2,500 and 5,000 kilowatt-hours a year."
+    },
+    {
+      "id": "measure_b",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "card": [
+        "One kilowatt-hour",
+        "A 1,000-watt heater running for one hour"
+      ],
+      "say": "A kilowatt-hour is what a 1,000-watt heater uses in an hour."
+    },
+    {
+      "id": "measure_c",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "card": [
+        "Everything included",
+        "Taxes, charges, and since 2021 the discounts governments gave. In euros, every six months"
+      ],
+      "say": "Every tax and charge is included, and since 2021, so are the discounts and credits governments gave to soften bills. The prices are in euros, every six months, and they're not adjusted for inflation. We'll come back to that."
+    },
+    {
+      "id": "y2008_a",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "EU average"
+      ],
+      "note": "Early 2008 · EU average 16c",
+      "say": "The first half of 2008. The EU average is 16 cents."
+    },
+    {
+      "id": "y2008_b",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "Denmark",
+        "Germany",
+        "Italy"
+      ],
+      "note": "Denmark 26c · Germany 21c · Italy 20c",
+      "say": "Denmark is the most expensive, at 26 cents. Then Germany, at 21, and Italy, at 20."
+    },
+    {
+      "id": "y2008_c",
+      "view": "rank",
+      "race": {
+        "at": 0
+      },
+      "focus": [
+        "Bulgaria",
+        "Estonia",
+        "Latvia",
+        "Hungary"
+      ],
+      "note": "Bulgaria 7c · Estonia 8c · Latvia 8c · Hungary 15c",
+      "say": "The cheapest is Bulgaria, at 7 cents, then Estonia and Latvia, at 8. And Hungary, today the cheapest in the EU? Back then it paid 15 cents, close to the average."
+    },
+    {
+      "id": "run",
+      "view": "rank",
+      "race": {
+        "from": 0,
+        "to": 26
+      },
+      "say": "For the next thirteen years, prices creep up slowly, by about two and a half percent a year on average."
+    },
+    {
+      "id": "y2021_a",
+      "view": "rank",
+      "race": {
+        "at": 26
+      },
+      "focus": [
+        "Germany",
+        "Denmark",
+        "EU average"
+      ],
+      "note": "Early 2021 · Germany 32c · EU average 22c",
+      "say": "By the first half of 2021, the EU average is 22 cents. Germany is now the most expensive, at 32, with Denmark close behind at 29."
+    },
+    {
+      "id": "y2021_b",
+      "view": "rank",
+      "race": {
+        "at": 26
+      },
+      "focus": [
+        "Germany"
+      ],
+      "note": "Germany's green power surcharge ended in July 2022",
+      "say": "In Germany, a big part of that price was a surcharge that paid for new wind and solar power. It was scrapped in July 2022, but by then, something much bigger was happening."
+    },
+    {
+      "id": "shock_a",
+      "view": "lines",
+      "race": {
+        "from": 26,
+        "to": 29
+      },
+      "say": "Gas prices had been climbing through 2021. After Russia's invasion of Ukraine in February 2022, they rose much further."
+    },
+    {
+      "id": "shock_b",
+      "view": "lines",
+      "race": {
+        "at": 29
+      },
+      "say": "In much of Europe, gas power stations set the wholesale price of electricity, so power prices followed gas up."
+    },
+    {
+      "id": "shock_c",
+      "view": "lines",
+      "race": {
+        "at": 29
+      },
+      "focus": [
+        "Denmark"
+      ],
+      "note": "Late 2022 · Denmark 59c",
+      "say": "In the second half of 2022, a Danish household pays 59 cents a kilowatt-hour. That's twice what it paid a year and a half earlier."
+    },
+    {
+      "id": "shock_d",
+      "view": "lines",
+      "race": {
+        "at": 29
+      },
+      "focus": [
+        "Belgium",
+        "Italy"
+      ],
+      "note": "Belgium 45c · Italy 36c",
+      "say": "Belgium pays 45 cents. Italy, 36."
+    },
+    {
+      "id": "caps_a",
+      "view": "lines",
+      "race": {
+        "at": 29
+      },
+      "focus": [
+        "France"
+      ],
+      "note": "France capped the rise at 4% in 2022",
+      "say": "But not everyone felt it the same way. France capped the rise in its regulated prices at 4 percent in 2022, so its line barely moves."
+    },
+    {
+      "id": "caps_b",
+      "view": "lines",
+      "race": {
+        "at": 29
+      },
+      "focus": [
+        "Spain"
+      ],
+      "note": "Spain 34c in late 2022 · 25c six months later",
+      "say": "Spain and Portugal capped the price of the gas used to make electricity. Spanish prices still jumped, to 34 cents, but they fell back fast, to 25 cents within six months."
+    },
+    {
+      "id": "caps_c",
+      "view": "lines",
+      "race": {
+        "at": 29
+      },
+      "focus": [
+        "Hungary"
+      ],
+      "note": "Hungary: prices set by the state since 2013",
+      "say": "And in Hungary, household prices have been set by the state since 2013. Its line stays almost flat through the whole crisis."
+    },
+    {
+      "id": "peak_a",
+      "view": "lines",
+      "race": {
+        "from": 29,
+        "to": 32
+      },
+      "say": "Gas prices fell back during 2023. But the EU average didn't."
+    },
+    {
+      "id": "peak_b",
+      "view": "lines",
+      "race": {
+        "at": 32
+      },
+      "focus": [
+        "EU average"
+      ],
+      "note": "Early 2024 · EU average 29c, its highest",
+      "say": "It stayed high, and reached its highest point in the first half of 2024, at 29 cents. Many contracts and regulated prices take months or years to catch up with the market."
+    },
+    {
+      "id": "now_a",
+      "view": "lines",
+      "race": {
+        "from": 32,
+        "to": 36
+      },
+      "say": "Since then, it has hardly come down."
+    },
+    {
+      "id": "now_b",
+      "view": "lines",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "EU average"
+      ],
+      "note": "Early 2026 · EU average 28c",
+      "say": "In the first half of 2026, the EU average is 28 cents, less than one cent below the peak."
+    },
+    {
+      "id": "dk",
+      "view": "lines",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Denmark"
+      ],
+      "note": "Denmark cut its electricity tax in January 2026",
+      "say": "Denmark is the exception. In January, it cut its electricity tax almost to zero for two years. Its price fell from 33 cents to 24 in a single half-year."
+    },
+    {
+      "id": "top_a",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Ireland",
+        "Germany",
+        "Belgium",
+        "Austria"
+      ],
+      "note": "Ireland 39c · Germany 36c · Belgium 36c · Austria 33c",
+      "say": "Here's the full ranking for early 2026. The most expensive is Ireland, at 39 cents. Then Germany and Belgium, at 36, and Austria, at 33."
+    },
+    {
+      "id": "top_b",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Italy",
+        "Sweden",
+        "Poland"
+      ],
+      "note": "Italy 31c · Sweden 31c · Poland 30c",
+      "say": "Then Italy and Sweden, at 31, and Poland, at 30."
+    },
+    {
+      "id": "mid",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Spain",
+        "France",
+        "Netherlands",
+        "Greece",
+        "Portugal"
+      ],
+      "note": "Spain 25c · France 25c · Netherlands, Greece, Portugal 24c",
+      "say": "In the middle are Spain and France, at 25 cents, and the Netherlands, Greece and Portugal, at 24."
+    },
+    {
+      "id": "bottom",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Bulgaria",
+        "Malta",
+        "Hungary"
+      ],
+      "note": "Bulgaria 13c · Malta 13c · Hungary 11c",
+      "say": "The cheapest are Bulgaria and Malta, at 13 cents, and Hungary, at 11. Outside the EU, Norway pays 20 cents, and Iceland 21."
+    },
+    {
+      "id": "pl",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Poland"
+      ],
+      "note": "Poland: 16c in late 2022 · 30c now",
+      "say": "Poland is the one to watch. In late 2022 it paid 16 cents. Now it pays 30, almost twice as much. Part of that is a stronger zloty, which makes Polish prices look higher in euros."
+    },
+    {
+      "id": "ro",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Romania"
+      ],
+      "note": "Romania's price cap ended in July 2025",
+      "say": "Romania jumped too. Its price cap ended in July 2025, and its price went from 19 cents to 29."
+    },
+    {
+      "id": "real_a",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "real",
+      "say": "So how much dearer is electricity than in 2008? Comparing whole years, the EU average rose from 16 cents in 2008 to 29 in 2025. That's 76 percent more."
+    },
+    {
+      "id": "real_b",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "real",
+      "say": "But prices in general rose too, by 47 percent over the same years. So after inflation, electricity costs about a fifth more than it did in 2008. A real rise, but not the near-doubling the raw numbers suggest."
+    },
+    {
+      "id": "parts_a",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "parts",
+      "say": "Why does one country pay three times as much as another? Every bill has three parts: the energy itself, the network that brings it to your home, and taxes."
+    },
+    {
+      "id": "parts_b",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "parts",
+      "say": "Across the EU in 2025, the energy was about 12 cents a kilowatt-hour, the network 8, and taxes 8."
+    },
+    {
+      "id": "parts_c",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "parts",
+      "say": "In Denmark, taxes were almost half the bill. That's why cutting them made such a difference. In Germany, the network and taxes together cost more than the energy."
+    },
+    {
+      "id": "parts_d",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "parts",
+      "say": "In Hungary, the energy part was just two and a half cents, because the state sets the price, not the market."
+    },
+    {
+      "id": "parts_e",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "parts",
+      "say": "Ireland is different. Its government gave households credits that more than cancelled out the taxes. But the energy part alone was 23 cents, the highest in the EU. Ireland makes much of its electricity from gas, so when gas is expensive, so is power."
+    },
+    {
+      "id": "bill_a",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "bill",
+      "say": "What does that mean for a year's electricity? Take a home that uses 3,500 kilowatt-hours a year."
+    },
+    {
+      "id": "bill_b",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "bill",
+      "say": "At the EU average price, that's about 990 euros. In Ireland, about 1,355. In Germany, 1,266. In Hungary, about 400."
+    },
+    {
+      "id": "bill_c",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "panel": "bill",
+      "say": "The thin bars show the same home in 2008. The Irish bill has more than doubled. The Hungarian one is lower than it was, even before inflation. These are illustrations: real bills add standing charges and depend on your contract."
+    },
+    {
+      "id": "pay_a",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "focus": [
+        "Bulgaria"
+      ],
+      "note": "Bulgaria: the EU's lowest minimum wage",
+      "say": "And cheap in euros isn't always cheap for the people paying. Bulgaria has some of the lowest electricity prices in the EU, and also the lowest minimum wage."
+    },
+    {
+      "id": "pay_b",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "note": "More in our video: Minimum Wages in the EU",
+      "say": "We looked at what wages really buy in our video on minimum wages across the EU."
+    },
+    {
+      "id": "take_1",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "take": [
+        "Ireland pays the most",
+        "39 cents a kilowatt-hour, against 11 in Hungary"
+      ],
+      "say": "Three things to take away. One: Ireland now pays the most for electricity in the EU, 39 cents a kilowatt-hour, more than three times Hungary's price."
+    },
+    {
+      "id": "take_2",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "take": [
+        "The 2022 shock never fully went away",
+        "The EU average is still 28 cents"
+      ],
+      "say": "Two: the 2022 shock never fully went away. The EU average is still 28 cents, close to its peak."
+    },
+    {
+      "id": "take_3",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "take": [
+        "Politics sets the gap",
+        "Taxes, price caps and the energy mix"
+      ],
+      "say": "Three: where your country sits on this chart depends less on the weather than on politics and pipes. Taxes, price caps and how much gas you burn decide most of the gap."
+    },
+    {
+      "id": "next",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "say": "Next on Terrachart: Europe's biggest populations, from 1950 to 2100."
+    },
+    {
+      "id": "end",
+      "view": "rank",
+      "race": {
+        "at": 36
+      },
+      "say": "Sources are in the description. What do you pay per kilowatt-hour where you live? Check your last bill and tell us in the comments."
+    }
+  ]
+}

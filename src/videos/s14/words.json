@@ -1,0 +1,17 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "2022: 59 CENTS",
+  "subtitle": "Household price per kWh, in euro cents",
+  "countries": ["Denmark", "EU average"],
+  "hero": "Denmark",
+  "crossings": [],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 2.4 } },
+  "lines": [
+    { "id": "a", "race": { "at": 0 }, "say": "In early 2008, a Danish household paid 26 cents for a kilowatt-hour of electricity." },
+    { "id": "b", "race": { "from": 0, "to": 28 }, "say": "For years, the price crept up slowly." },
+    { "id": "c", "race": { "at": 29 }, "say": "Then, in the second half of 2022, gas prices soared, and Danish electricity hit 59 cents a kilowatt-hour. More than twice the 2008 price." },
+    { "id": "d", "race": { "at": 32 }, "say": "The EU average peaked later, in early 2024, at 29 cents." },
+    { "id": "e", "race": { "at": 36 }, "say": "Now Denmark has cut its electricity tax almost to zero, and it pays 24 cents. Less than the EU average of 28." },
+    { "id": "f", "race": { "at": 36 }, "say": "The whole story of Europe's power prices is in our full video." }
+  ]
+}

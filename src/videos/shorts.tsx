@@ -9,6 +9,8 @@ import l03data from "./l03/data.json";
 import l04lines from "./l04/lines.json";
 import l05lines from "./l05/lines.json";
 import l05rank from "./l05/rank.json";
+import l06lines from "./l06/lines.json";
+import l06rank from "./l06/rank.json";
 import s01timing from "./s01/timing.json";
 import s01words from "./s01/words.json";
 import s02timing from "./s02/timing.json";
@@ -29,6 +31,10 @@ import s10timing from "./s10/timing.json";
 import s10words from "./s10/words.json";
 import s11timing from "./s11/timing.json";
 import s11words from "./s11/words.json";
+import s13timing from "./s13/timing.json";
+import s13words from "./s13/words.json";
+import s14timing from "./s14/timing.json";
+import s14words from "./s14/words.json";
 
 const gdp = l01data as RaceData;
 const wages = l02rank as RaceData;
@@ -36,6 +42,9 @@ const gdppc = l03data as RaceData;
 const lifeExp = l04lines as RaceData;
 const hoursRank = l05rank as RaceData;
 const hoursLines = l05lines as RaceData;
+const priceRank = l06rank as RaceData;
+const priceLines = l06lines as RaceData;
+const PRICE_SOURCE = "Eurostat (nrg_pc_204), all taxes included";
 const HOURS_SOURCE = "Penn World Table (2025) via Our World in Data";
 const GDP_SOURCE = "World Bank, GDP (current US$)";
 const WAGE_SOURCE = "Eurostat (earn_mw_cur), July 2026. PPS = purchasing power standards";
@@ -117,6 +126,44 @@ export const S11: React.FC = () => (
   />
 );
 
+export const S13: React.FC = () => (
+  <StageShort
+    words={s13words as StageWords}
+    timing={s13timing.timing}
+    data={priceRank}
+    voiceDir="voice/s13"
+    source={PRICE_SOURCE}
+    music="music/terrachart-bed-06.wav"
+    labels={["Early 2026", "Early 2026"]}
+    format={(v) => `${Math.round(v)}c`}
+  />
+);
+
+// Eurostat publishes these prices every six months: step 0 is the first half of 2008, step 36 the first half of 2026.
+const halfYear = (t: number) => {
+  const step = Math.floor(t + 0.001);
+  return `${step % 2 === 0 ? "Early" : "Late"} ${2008 + Math.floor(step / 2)}`;
+};
+
+export const S14: React.FC = () => (
+  <LineShort
+    words={s14words as LineShortWords}
+    timing={s14timing.timing}
+    data={priceLines}
+    voiceDir="voice/s14"
+    source={PRICE_SOURCE}
+    music="music/terrachart-bed-06.wav"
+    yMin={0}
+    yMax={70}
+    yStep={10}
+    xStep={8}
+    format={(v) => `${Math.round(v)}c`}
+    axisFormat={(v) => `${v}c`}
+    timeLabel={(t) => String(2008 + t / 2)}
+    counterLabel={halfYear}
+  />
+);
+
 export const S01_FRAMES = duelTimeline(s01words as ShortWords, s01timing.timing).total;
 export const S02_FRAMES = duelTimeline(s02words as ShortWords, s02timing.timing).total;
 export const S03_FRAMES = stageTimeline(s03words as StageWords, s03timing.timing).total;
@@ -126,3 +173,5 @@ export const S06_FRAMES = lineShortTimeline(s06words as LineShortWords, s06timin
 export const S08_FRAMES = lineShortTimeline(s08words as LineShortWords, s08timing.timing).total;
 export const S10_FRAMES = stageTimeline(s10words as StageWords, s10timing.timing).total;
 export const S11_FRAMES = lineShortTimeline(s11words as LineShortWords, s11timing.timing).total;
+export const S13_FRAMES = stageTimeline(s13words as StageWords, s13timing.timing).total;
+export const S14_FRAMES = lineShortTimeline(s14words as LineShortWords, s14timing.timing).total;

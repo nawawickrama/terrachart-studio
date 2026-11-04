@@ -16,8 +16,12 @@ The channel's videos, written as code with [Remotion](https://www.remotion.dev) 
 | `S08`, `S09` | Shorts: Spain +22 years (line race); Germany vs Spain, health spending and years of life | 42 s, 36 s |
 | `L05` | Who works the longest hours in Europe (31-country ranking, 1970–2023 line race, panels for 1870, output per hour, the US and Asia) | 8:48 |
 | `S10`, `S11` | Shorts: Germany works the fewest hours (ranking); Germany 1970 vs now (line race) | 30 s, 39 s |
+| `L06` | Electricity prices in Europe, 2008–2026 (ranking and line chart in half-year steps, panels for inflation, price parts and a year's bill) | 8:45 |
+| `S13`, `S14` | Shorts: Ireland vs Hungary (ranking); Denmark's 2022 spike (line chart) | 39 s, 46 s |
 
 The tile map (`src/shared/TileMap.tsx`) puts one square per country roughly where it sits in Europe and colours it by value; its root has `zIndex: 0` so raised tiles never cover cards, title cards or end screens drawn after it.
+
+For data that comes every six months (L06), the time steps are 0, 1, 2… and `timeLabel` (in `LineRace` and `LineShort`) turns a step back into a year.
 
 Line chart races (`src/shared/LineRace.tsx`, used by L03 and `LineShort.tsx`) draw each country's line up to the current year with its name at the end; names are pushed apart so they never overlap, and rings mark where the hero passes another country. When a line of narration names a year, that line must jump the chart to that year (`race.at`), or the year before it must run there (`race.from`/`race.to`) with words that don't name the year. Check the counter against the voice in the stills.
 

@@ -17,7 +17,10 @@ import { total as l04Frames } from "./videos/l04/timeline";
 import { L05 } from "./videos/l05/L05";
 import { L05ThumbA, L05ThumbB } from "./videos/l05/Thumbs";
 import { total as l05Frames } from "./videos/l05/timeline";
-import { S01, S01_FRAMES, S02, S02_FRAMES, S03, S03_FRAMES, S04, S04_FRAMES, S05, S05_FRAMES, S06, S06_FRAMES, S07, S07_FRAMES, S08, S08_FRAMES, S09, S09_FRAMES, S10, S10_FRAMES, S11, S11_FRAMES } from "./videos/shorts";
+import { L06 } from "./videos/l06/L06";
+import { L06ThumbA, L06ThumbB } from "./videos/l06/Thumbs";
+import { total as l06Frames } from "./videos/l06/timeline";
+import { S01, S01_FRAMES, S02, S02_FRAMES, S03, S03_FRAMES, S04, S04_FRAMES, S05, S05_FRAMES, S06, S06_FRAMES, S07, S07_FRAMES, S08, S08_FRAMES, S09, S09_FRAMES, S10, S10_FRAMES, S11, S11_FRAMES, S13, S13_FRAMES, S14, S14_FRAMES } from "./videos/shorts";
 
 export const Root: React.FC = () => (
   <>
@@ -36,6 +39,9 @@ export const Root: React.FC = () => (
     <Composition id="L05" component={L05} durationInFrames={l05Frames} fps={FPS} width={1920} height={1080} />
     <Composition id="L05ThumbA" component={L05ThumbA} durationInFrames={1} fps={FPS} width={1280} height={720} />
     <Composition id="L05ThumbB" component={L05ThumbB} durationInFrames={1} fps={FPS} width={1280} height={720} />
+    <Composition id="L06" component={L06} durationInFrames={l06Frames} fps={FPS} width={1920} height={1080} />
+    <Composition id="L06ThumbA" component={L06ThumbA} durationInFrames={1} fps={FPS} width={1280} height={720} />
+    <Composition id="L06ThumbB" component={L06ThumbB} durationInFrames={1} fps={FPS} width={1280} height={720} />
     <Composition id="S01" component={S01} durationInFrames={S01_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S02" component={S02} durationInFrames={S02_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S03" component={S03} durationInFrames={S03_FRAMES} fps={FPS} width={1080} height={1920} />
@@ -47,5 +53,7 @@ export const Root: React.FC = () => (
     <Composition id="S09" component={S09} durationInFrames={S09_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S10" component={S10} durationInFrames={S10_FRAMES} fps={FPS} width={1080} height={1920} />
     <Composition id="S11" component={S11} durationInFrames={S11_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S13" component={S13} durationInFrames={S13_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S14" component={S14} durationInFrames={S14_FRAMES} fps={FPS} width={1080} height={1920} />
   </>
 );

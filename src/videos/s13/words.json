@@ -1,0 +1,15 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "39c vs 11c",
+  "subtitle": "Household electricity price per kWh, early 2026",
+  "countries": ["Ireland", "Germany", "Belgium", "EU average", "Hungary"],
+  "focus": ["Ireland", "Hungary"],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 0.8 } },
+  "lines": [
+    { "id": "a", "race": { "at": 36 }, "say": "A household in Ireland pays 39 cents for every kilowatt-hour of electricity." },
+    { "id": "b", "race": { "at": 36 }, "say": "In Hungary: 11 cents. Same electricity, more than three times the price." },
+    { "id": "c", "race": { "at": 36 }, "say": "For a home that uses 3,500 kilowatt-hours a year, that's about 1,355 euros in Ireland, and about 400 in Hungary." },
+    { "id": "d", "race": { "at": 36 }, "say": "Hungary's prices are set by the state. In Ireland, the energy itself is expensive, because much of it is made from gas." },
+    { "id": "e", "race": { "at": 36 }, "say": "Where does your country sit? All of Europe is in our full video." }
+  ]
+}

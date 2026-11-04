@@ -48,6 +48,9 @@ export const LineShort: React.FC<{
   /** How a value reads at the end of a line, and on the axis. Dollars by default. */
   format?: (v: number) => string;
   axisFormat?: (v: number) => string;
+  /** For data that isn't one value per calendar year: the time axis labels, and the big counter. */
+  timeLabel?: (t: number) => string;
+  counterLabel?: (t: number) => string;
 }> = ({
   words,
   timing,
@@ -61,6 +64,8 @@ export const LineShort: React.FC<{
   xStep = 10,
   format = (v) => `$${n(v)}`,
   axisFormat = (v) => `$${n(v / 1000)}k`,
+  timeLabel,
+  counterLabel = (t) => String(Math.floor(t + 0.001)),
 }) => {
   const frame = useCurrentFrame();
   const { beats, total, yearAt } = lineShortTimeline(words, timing);
@@ -82,7 +87,7 @@ export const LineShort: React.FC<{
         <div style={{ marginTop: 14, color: C.slate, fontSize: 36 }}>{words.subtitle}</div>
       </div>
       <div style={{ position: "absolute", top: 405, left: 66, color: C.paper, fontSize: 130, fontWeight: 900, letterSpacing: "-0.04em", fontVariantNumeric: "tabular-nums", lineHeight: 1 }}>
-        {Math.floor(year + 0.001)}
+        {counterLabel(year)}
       </div>
       <LineRace
         data={data}
@@ -103,6 +108,7 @@ export const LineShort: React.FC<{
         labelGap={42}
         format={format}
         axisFormat={axisFormat}
+        timeLabel={timeLabel}
         crossings={crossings}
         crossingLabels="highlight"
       />

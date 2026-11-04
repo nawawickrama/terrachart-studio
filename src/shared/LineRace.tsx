@@ -88,6 +88,8 @@ export const LineRace: React.FC<{
   labelFloor?: number;
   format: (v: number) => string;
   axisFormat: (v: number) => string;
+  /** The label for a point on the time axis, for data that isn't one value per calendar year. */
+  timeLabel?: (t: number) => string;
   markers?: Marker[];
   crossings?: Crossing[];
   only?: string[];
@@ -112,6 +114,7 @@ export const LineRace: React.FC<{
   labelFloor,
   format,
   axisFormat,
+  timeLabel = String,
   markers = [],
   crossings = [],
   only,
@@ -199,14 +202,14 @@ export const LineRace: React.FC<{
       ))}
       {xTicks.map((t) => (
         <div key={`xl${t}`} style={{ position: "absolute", left: xOf(t) - 50, width: 100, top: y + height + 10, textAlign: "center", color: C.slate, fontSize: fontSize * 0.85 }}>
-          {t}
+          {timeLabel(t)}
         </div>
       ))}
       {markers.map((m) => {
         const o = Math.min(1, Math.max(0, (now - m.year + 0.3) / 0.3));
         return o > 0 ? (
           <div key={`ml${m.year}`} style={{ position: "absolute", left: xOf(m.year) + 8, top: y + 4 + (m.row ?? 0) * (fontSize * 1.4), opacity: o, fontSize: fontSize * 0.85, whiteSpace: "nowrap" }}>
-            <span style={{ color: C.amber, fontWeight: 800 }}>{m.year}</span>
+            <span style={{ color: C.amber, fontWeight: 800 }}>{timeLabel(m.year)}</span>
             <span style={{ color: C.slate, fontWeight: 600 }}> {m.label}</span>
           </div>
         ) : null;
