@@ -54,8 +54,10 @@ export const PanelBars: React.FC<{
   ghostLabel?: string;
   nowLabel?: string;
   reference?: { value: number; label: string };
-}> = ({ rows, max, grow, format, top = 190, width = 760, labelWidth = 330, ghost = 0, ghostLabel, nowLabel, reference }) => {
-  const pitch = rows.length > 2 ? 120 : 150;
+  /** Distance between rows; by default 120, or 150 for two rows. */
+  pitch?: number;
+}> = ({ rows, max, grow, format, top = 190, width = 760, labelWidth = 330, ghost = 0, ghostLabel, nowLabel, reference, pitch: pitchProp }) => {
+  const pitch = pitchProp ?? (rows.length > 2 ? 120 : 150);
   const left = 56 + labelWidth;
   return (
     <>

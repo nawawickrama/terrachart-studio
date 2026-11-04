@@ -1,0 +1,17 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "PEAK: 2014",
+  "subtitle": "Italy, in millions; UN projection after 2023",
+  "countries": ["Italy"],
+  "hero": "Italy",
+  "crossings": [],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "c": 0.8 } },
+  "lines": [
+    { "id": "a", "race": { "at": 2014 }, "say": "Italy's population peaked in 2014, at 60.7 million." },
+    { "id": "b", "race": { "at": 2025 }, "say": "It has been falling ever since. Today, it's 59 million." },
+    { "id": "c", "race": { "from": 2025, "to": 2049 }, "say": "On the United Nations' central projection, the fall speeds up." },
+    { "id": "d", "race": { "at": 2050 }, "say": "By 2050: about 52 million." },
+    { "id": "e", "race": { "at": 2100 }, "say": "By 2100: 35 million. Fewer than in 1950." },
+    { "id": "f", "race": { "at": 2100 }, "say": "Very few births, about 1.2 children per woman, and a median age of 48. The full story is in our video." }
+  ]
+}

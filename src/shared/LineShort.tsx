@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Html5Audio, Sequence, staticFile, useCurrentFrame } from "remotion";
 import { C, FONT } from "../brand";
-import { LineRace } from "./LineRace";
+import { LineRace, type Marker } from "./LineRace";
 import { Mark, Wordmark } from "./Logo";
 import { MusicBed } from "./MusicBed";
 import type { RaceData } from "./Race";
@@ -51,6 +51,8 @@ export const LineShort: React.FC<{
   /** For data that isn't one value per calendar year: the time axis labels, and the big counter. */
   timeLabel?: (t: number) => string;
   counterLabel?: (t: number) => string;
+  /** Dashed lines at given years, such as where estimates end and projections begin. */
+  markers?: Marker[];
 }> = ({
   words,
   timing,
@@ -66,6 +68,7 @@ export const LineShort: React.FC<{
   axisFormat = (v) => `$${n(v / 1000)}k`,
   timeLabel,
   counterLabel = (t) => String(Math.floor(t + 0.001)),
+  markers,
 }) => {
   const frame = useCurrentFrame();
   const { beats, total, yearAt } = lineShortTimeline(words, timing);
@@ -109,6 +112,7 @@ export const LineShort: React.FC<{
         format={format}
         axisFormat={axisFormat}
         timeLabel={timeLabel}
+        markers={markers}
         crossings={crossings}
         crossingLabels="highlight"
       />

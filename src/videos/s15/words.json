@@ -1,0 +1,16 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "UK > GERMANY?",
+  "subtitle": "Population in millions; UN projection after 2023",
+  "countries": ["Germany", "United Kingdom"],
+  "hero": "United Kingdom",
+  "crossings": [{ "country": "Germany", "year": 2059 }],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 0.8 } },
+  "lines": [
+    { "id": "a", "race": { "at": 2025 }, "say": "Today, Germany has 84 million people. The UK, just under 70 million." },
+    { "id": "b", "race": { "from": 2025, "to": 2058 }, "say": "On the United Nations' central projection, Germany starts shrinking, and the UK keeps growing." },
+    { "id": "c", "race": { "at": 2059 }, "cross": "Germany", "say": "In 2059, the lines cross, at about 76 million each." },
+    { "id": "d", "race": { "at": 2100 }, "say": "By 2100: the UK, 74 million. Germany, 71." },
+    { "id": "e", "race": { "at": 2100 }, "say": "Germany has more immigrants, but more deaths than births. A projection, not a promise. Our full video explains why the lines bend." }
+  ]
+}

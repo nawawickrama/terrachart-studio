@@ -17,6 +17,8 @@ The channel's videos, written as code with [Remotion](https://www.remotion.dev) 
 | `L05` | Who works the longest hours in Europe (31-country ranking, 1970–2023 line race, panels for 1870, output per hour, the US and Asia) | 8:48 |
 | `S10`, `S11` | Shorts: Germany works the fewest hours (ranking); Germany 1970 vs now (line race) | 30 s, 39 s |
 | `L06` | Electricity prices in Europe, 2008–2026 (ranking and line chart in half-year steps, panels for inflation, price parts and a year's bill) | 8:45 |
+| `L07` | Europe's biggest populations, 1950–2100 (bar race with hatched UN projections, line chart with the UK passing Germany, panels for births, deaths, migration and age) | 8:02 |
+| `S15`, `S16`, `S19` | Shorts: UK vs Germany to 2100; Italy's 2014 peak; Poland halves (line charts with the projection marked) | 36 s, 35 s, 32 s |
 | `S12` | Short: Italian homes are cheaper than in 2010 (line race, house price index 2010 = 100) | 50 s |
 | `S13`, `S14` | Shorts: Ireland vs Hungary (ranking); Denmark's 2022 spike (line chart) | 39 s, 46 s |
 

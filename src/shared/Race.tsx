@@ -88,7 +88,9 @@ export const Race: React.FC<{
   axisFormat?: (v: number) => string;
   /** Fixed top of the scale; by default it follows the biggest bar. */
   scaleTop?: number;
-}> = ({ data, year, trail, level, x, y, width, height, labelWidth = 290, fontSize = 26, axis = true, format = money, axisFormat = axisMoney, scaleTop }) => {
+  /** 0–1: how strongly the bars are hatched, for years that are projections rather than measurements. */
+  striped?: number;
+}> = ({ data, year, trail, level, x, y, width, height, labelWidth = 290, fontSize = 26, axis = true, format = money, axisFormat = axisMoney, scaleTop, striped = 0 }) => {
   const rows = rowsAt(data, year, undefined, trail);
   const slots = data.countries.length;
   const pitch = height / slots;
@@ -142,7 +144,17 @@ export const Race: React.FC<{
             >
               {country.name}
             </div>
-            <div style={{ position: "absolute", left: barLeft, top: rowTop, width: w, height: barH, background: colour, borderRadius: `4px ${barH / 2}px ${barH / 2}px 4px` }} />
+            <div
+              style={{
+                position: "absolute",
+                left: barLeft,
+                top: rowTop,
+                width: w,
+                height: barH,
+                background: striped > 0 ? `repeating-linear-gradient(135deg, ${colour} 0 9px, rgba(8,19,31,${0.55 * striped}) 9px 14px)` : colour,
+                borderRadius: `4px ${barH / 2}px ${barH / 2}px 4px`,
+              }}
+            />
             <Flag code={country.code} size={flag} style={{ position: "absolute", left: barLeft + w + 10, top: rowTop + (barH - flag) / 2 }} />
             <div
               style={{

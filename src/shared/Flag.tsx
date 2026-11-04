@@ -143,6 +143,17 @@ const FLAGS: Record<string, React.ReactNode> = {
       <path d="M15 0 V30 M0 15 H30" stroke="#c8102e" strokeWidth={6} />
     </>
   ),
+  // Belarus: red over green, with the white-and-red ornament band at the hoist, simplified to a column of diamonds.
+  BY: (
+    <>
+      <rect width={30} height={30} fill="#c8313e" />
+      <rect y={20} width={30} height={10} fill="#4aa657" />
+      <rect width={6} height={30} fill="#ffffff" />
+      {[3, 9, 15, 21, 27].map((y) => (
+        <path key={y} d={`M3 ${y - 2} L5 ${y} L3 ${y + 2} L1 ${y} Z`} fill="#c8313e" />
+      ))}
+    </>
+  ),
   // The European Union: twelve gold stars in a ring, drawn as dots so they stay crisp at badge size.
   EU: (
     <>

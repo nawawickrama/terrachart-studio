@@ -1,0 +1,16 @@
+{
+  "voice": { "engine": "kokoro", "name": "af_heart", "speed": 0.98 },
+  "title": "38M → 19M",
+  "subtitle": "Poland, in millions; UN projection after 2023",
+  "countries": ["Poland"],
+  "hero": "Poland",
+  "crossings": [],
+  "pacing": { "lead": 0.5, "tail": 1.5, "pause": 0.4, "pauseAfter": { "b": 0.8 } },
+  "lines": [
+    { "id": "a", "race": { "at": 2025 }, "say": "Poland has 38 million people today." },
+    { "id": "b", "race": { "from": 2025, "to": 2099 }, "say": "On the United Nations' central projection, it shrinks decade after decade." },
+    { "id": "c", "race": { "at": 2100 }, "say": "By 2100: about 19 million. Half." },
+    { "id": "d", "race": { "at": 2100 }, "say": "Very low birth rates, about 1.3 children per woman. Few immigrants. And many young Poles working abroad." },
+    { "id": "e", "race": { "at": 2100 }, "say": "A big challenge for one of Europe's fastest-growing economies. Where it sits among Europe's biggest populations, in our full video." }
+  ]
+}

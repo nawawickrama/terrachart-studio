@@ -1,0 +1,506 @@
+{
+  "voice": {
+    "engine": "kokoro",
+    "name": "af_heart",
+    "speed": 0.95
+  },
+  "music": {
+    "file": "music/terrachart-bed-07.wav",
+    "credit": "Music: original score by Terrachart"
+  },
+  "pacing": {
+    "lead": 1,
+    "tail": 12.4,
+    "pause": 1.1,
+    "pauseAfter": {
+      "hook_b": 1.2,
+      "hook_c": 1.6,
+      "measure_c": 1.6,
+      "y1950_b": 1.2,
+      "run1": 4,
+      "y2000_b": 1.2,
+      "run2": 4,
+      "y2025_b": 1.6,
+      "italy_b": 1.4,
+      "proj": 3,
+      "y2050_b": 1.2,
+      "cross": 1.6,
+      "y2100_b": 1.6,
+      "r2100_b": 1.6,
+      "births_b": 1.4,
+      "natural_b": 1.4,
+      "ukraine": 1.6,
+      "take_3": 1.2,
+      "next": 1.2,
+      "age_b": 1.6
+    }
+  },
+  "chapters": {
+    "hook_a": "The UK passes Germany?",
+    "measure_a": "Estimates and projections",
+    "y1950_a": "1950",
+    "y2000_a": "2000",
+    "y2025_a": "2025",
+    "proj": "2050",
+    "y2100_a": "2100",
+    "births_a": "Why the lines bend",
+    "take_1": "What it means"
+  },
+  "lines": [
+    {
+      "id": "hook_a",
+      "view": "rank",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Germany",
+        "United Kingdom"
+      ],
+      "note": "2025 · Germany 84 million · UK 70 million",
+      "say": "For as long as anyone alive can remember, Germany has had more people than Britain. Today, 84 million against 70."
+    },
+    {
+      "id": "hook_b",
+      "view": "rank",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Germany",
+        "United Kingdom",
+        "Italy",
+        "Poland"
+      ],
+      "note": "UN projection: the UK passes Germany in 2059",
+      "say": "But on the United Nations' central projection, the UK passes Germany in 2059. Italy has already started shrinking. And Poland could lose half its people by 2100."
+    },
+    {
+      "id": "hook_c",
+      "view": "rank",
+      "race": {
+        "at": 2025
+      },
+      "overlay": "title",
+      "say": "Here are Europe's biggest populations over 150 years, from 1950 to 2100."
+    },
+    {
+      "id": "measure_a",
+      "view": "rank",
+      "race": {
+        "at": 2025
+      },
+      "card": [
+        "Estimates, then projections",
+        "UN figures up to 2023. After that, the UN's middle scenario. Source: UN World Population Prospects 2024"
+      ],
+      "say": "First, what you're looking at. Up to 2023, these are the United Nations' estimates. After that, they're projections: the UN's middle scenario, based on assumptions about births, deaths and migration."
+    },
+    {
+      "id": "measure_b",
+      "view": "rank",
+      "race": {
+        "at": 2025
+      },
+      "card": [
+        "Projections, not predictions",
+        "They show where today's trends lead. Projected years have striped bars"
+      ],
+      "say": "Projections aren't predictions. They show where today's trends lead if they carry on. Whenever the chart is showing projected years, the bars are striped."
+    },
+    {
+      "id": "measure_c",
+      "view": "rank",
+      "race": {
+        "at": 2025
+      },
+      "card": [
+        "Who's on the chart",
+        "Russia as the whole country. Turkey, mostly in Asia, is left out: it would be second"
+      ],
+      "say": "Russia is shown as the whole country, including the part in Asia. We've left out Turkey, which lies mostly in Asia. With 88 million people, it would be second. And Germany is shown within today's borders, east and west together, for every year."
+    },
+    {
+      "id": "y1950_a",
+      "view": "rank",
+      "race": {
+        "at": 1950
+      },
+      "focus": [
+        "Russia",
+        "Germany",
+        "United Kingdom"
+      ],
+      "note": "1950 · Russia 103m · Germany 70m · UK 50m",
+      "say": "1950. Russia has 103 million people. Germany, 70 million. The UK, 50."
+    },
+    {
+      "id": "y1950_b",
+      "view": "rank",
+      "race": {
+        "at": 1950
+      },
+      "focus": [
+        "Italy",
+        "France",
+        "Ukraine",
+        "Spain",
+        "Poland"
+      ],
+      "note": "Italy 46m · France 42m · Ukraine 37m · Spain 28m · Poland 25m",
+      "say": "Italy, 46. France, 42. Ukraine, 37. Spain has 28 million, and Poland 25."
+    },
+    {
+      "id": "run1",
+      "view": "rank",
+      "race": {
+        "from": 1950,
+        "to": 1999
+      },
+      "say": "Then comes the baby boom, and decades of growth almost everywhere. Russia peaks at the start of the nineties, at almost 150 million, and Ukraine soon after, at 52."
+    },
+    {
+      "id": "y2000_a",
+      "view": "rank",
+      "race": {
+        "at": 2000
+      },
+      "focus": [
+        "Russia",
+        "Germany",
+        "France",
+        "United Kingdom",
+        "Italy"
+      ],
+      "note": "2000 · Russia 147m · Germany 82m · France and UK 59m",
+      "say": "2000. Russia is already shrinking, at 147 million. Germany has 82. France and the UK, 59 each. Italy, 57."
+    },
+    {
+      "id": "y2000_b",
+      "view": "rank",
+      "race": {
+        "at": 2000
+      },
+      "focus": [
+        "Ukraine"
+      ],
+      "note": "Ukraine 50m, down from 52m in 1993",
+      "say": "Ukraine is down to 50 million."
+    },
+    {
+      "id": "run2",
+      "view": "rank",
+      "race": {
+        "from": 2000,
+        "to": 2024
+      },
+      "say": "Over the next quarter of a century, the countries in Western Europe keep growing slowly. Most of those further east keep shrinking."
+    },
+    {
+      "id": "y2025_a",
+      "view": "rank",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Russia",
+        "Germany",
+        "United Kingdom",
+        "France"
+      ],
+      "note": "2025 · Russia 144m · Germany 84m · UK 70m · France 67m",
+      "say": "2025. Russia, 144 million. Germany, 84. The UK, just under 70. France, 67."
+    },
+    {
+      "id": "y2025_b",
+      "view": "rank",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Italy",
+        "Spain",
+        "Ukraine",
+        "Poland"
+      ],
+      "note": "Italy 59m · Spain 48m · Ukraine 39m · Poland 38m",
+      "say": "Italy, 59. Spain, 48. Ukraine, 39. And Poland, 38."
+    },
+    {
+      "id": "italy_a",
+      "view": "lines",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Italy"
+      ],
+      "note": "Italy peaked in 2014, at 60.7 million",
+      "say": "Here are six of them as lines. Look at Italy. Its population peaked in 2014, at 60.7 million. Since then, it has lost about one and a half million people."
+    },
+    {
+      "id": "italy_b",
+      "view": "lines",
+      "race": {
+        "at": 2025
+      },
+      "focus": [
+        "Spain",
+        "Poland",
+        "Germany"
+      ],
+      "note": "Spain, Poland and Germany: at or near their peak",
+      "say": "Spain, Poland and Germany are at, or very close to, their highest ever. On the UN's numbers, all three start falling from here."
+    },
+    {
+      "id": "proj",
+      "view": "lines",
+      "race": {
+        "from": 2025,
+        "to": 2049
+      },
+      "say": "Now we're in projection territory. Everything from here on is the UN's middle scenario: where today's births, deaths and migration lead if they carry on."
+    },
+    {
+      "id": "y2050_a",
+      "view": "lines",
+      "race": {
+        "at": 2050
+      },
+      "focus": [
+        "Germany",
+        "United Kingdom"
+      ],
+      "note": "2050 · Germany 78m · UK 75.5m",
+      "say": "By 2050, Germany is down to 78 million, and the UK is up to 75 and a half."
+    },
+    {
+      "id": "y2050_b",
+      "view": "lines",
+      "race": {
+        "at": 2050
+      },
+      "focus": [
+        "France",
+        "Italy"
+      ],
+      "note": "France 68m · Italy 52m",
+      "say": "France has 68 million. Italy has lost more than 7 million people, and is down to 52."
+    },
+    {
+      "id": "cross",
+      "view": "lines",
+      "race": {
+        "at": 2059
+      },
+      "focus": [
+        "Germany",
+        "United Kingdom"
+      ],
+      "note": "2059 · the UK passes Germany, at 76 million",
+      "say": "And in 2059, the lines cross. With about 76 million each, the UK passes Germany."
+    },
+    {
+      "id": "y2100_a",
+      "view": "lines",
+      "race": {
+        "at": 2100
+      },
+      "focus": [
+        "United Kingdom",
+        "Germany",
+        "France"
+      ],
+      "note": "2100 · UK 74m · Germany 71m · France 68m",
+      "say": "By 2100, the UK has 74 million people, and Germany 71. The UK itself peaks in the early 2070s, then starts to shrink as well. France is the only one here still growing almost to the end of the century, to 68 and a half million in the 2090s."
+    },
+    {
+      "id": "y2100_b",
+      "view": "lines",
+      "race": {
+        "at": 2100
+      },
+      "focus": [
+        "Italy",
+        "Spain",
+        "Poland"
+      ],
+      "note": "Italy 35m · Spain 33m · Poland 19.3m",
+      "say": "Italy has fallen to 35 million. Spain, to 33. And Poland, to 19 million: half of what it has today."
+    },
+    {
+      "id": "r2100_a",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "focus": [
+        "Russia",
+        "United Kingdom",
+        "Germany",
+        "France"
+      ],
+      "note": "2100 · Russia 126m · UK 74m · Germany 71m · France 68m",
+      "say": "Here's the full ranking for 2100. Russia is still first, at 126 million, almost 18 million fewer than today. Then the UK, Germany and France, and then a long drop."
+    },
+    {
+      "id": "r2100_b",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "focus": [
+        "Netherlands",
+        "Ukraine",
+        "Romania"
+      ],
+      "note": "Netherlands 17.5m · Ukraine 15m · Romania 11m",
+      "say": "Ukraine falls to 15 million, fewer than the Netherlands. Romania, which peaked in 1991 at 23 million, is down to 11."
+    },
+    {
+      "id": "births_a",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "births",
+      "say": "So why do the lines bend? Two forces decide most of it. The first is births. Without migration, a country needs about 2.1 children per woman to keep its population steady."
+    },
+    {
+      "id": "births_b",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "births",
+      "say": "No big European country is close. In 2023, France had the most, at 1.6. The UK, 1.6 too. Germany, 1.4. Poland, 1.3. Italy and Spain, 1.2. And Ukraine, fewer than one."
+    },
+    {
+      "id": "natural_a",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "natural",
+      "say": "Fewer births means that in many countries, more people now die each year than are born."
+    },
+    {
+      "id": "natural_b",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "natural",
+      "say": "In 2023, Germany had almost 4 more deaths than births for every 1,000 people. Italy, almost 5. Ukraine, 7 and a half. The UK and France still had slightly more births than deaths."
+    },
+    {
+      "id": "migration_a",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "migration",
+      "say": "The second force is migration. And here's a surprise: Germany has more immigrants than the UK. One in five people living in Germany was born abroad. In the UK, about one in six."
+    },
+    {
+      "id": "migration_b",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "migration",
+      "say": "Migration is what has kept Germany growing. But as its population ages, the gap between deaths and births gets wider, and on the UN's numbers, migration no longer makes up for it."
+    },
+    {
+      "id": "migration_c",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "migration",
+      "say": "Spain has almost as high a share of immigrants as Germany, but one of Europe's lowest birth rates. Poland has very few immigrants, and many young Poles live and work abroad."
+    },
+    {
+      "id": "age_a",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "age",
+      "say": "Behind all of this is age. The median age is the age that splits a country in half: half the people are older, half younger. In 1950, it was 27 and a half in Italy. Today, it's 48."
+    },
+    {
+      "id": "age_b",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "panel": "age",
+      "say": "Germany's median age is 45. The UK's is 40, which is one reason Britain keeps growing for longer. And Poland's has jumped from 25 to 42. On the UN's numbers, it reaches 52 by 2050."
+    },
+    {
+      "id": "ukraine",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "focus": [
+        "Ukraine"
+      ],
+      "note": "Ukraine's projection is especially uncertain",
+      "say": "For Ukraine, the war since 2022 and millions of refugees have changed the numbers sharply. Its long-term projection is especially uncertain."
+    },
+    {
+      "id": "take_1",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "take": [
+        "The UK passes Germany",
+        "In 2059, on the UN's central projection"
+      ],
+      "say": "Three things to take away. One: on the UN's central projection, the UK passes Germany in 2059, because Germany has more deaths than births."
+    },
+    {
+      "id": "take_2",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "take": [
+        "The south and east shrink",
+        "Italy, Spain and Poland lose a third or more"
+      ],
+      "say": "Two: Italy, Spain and Poland are at or past their peak. By 2100, each could lose a third or more of its people."
+    },
+    {
+      "id": "take_3",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "take": [
+        "Fewer young people",
+        "Every country here will have more older people to support"
+      ],
+      "say": "Three: a smaller population isn't a disaster by itself. But fewer young people supporting more older people is a challenge every country on this chart will face."
+    },
+    {
+      "id": "next",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "say": "Next on Terrachart: every European Cup winner, from 1956 to 2026, in one race."
+    },
+    {
+      "id": "end",
+      "view": "rank",
+      "race": {
+        "at": 2100
+      },
+      "say": "Sources are in the description. Do you believe the 2100 projection for your country? What would change it? Tell us in the comments."
+    }
+  ]
+}

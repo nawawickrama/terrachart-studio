@@ -10,6 +10,7 @@ import l04lines from "./l04/lines.json";
 import l05lines from "./l05/lines.json";
 import l05rank from "./l05/rank.json";
 import l06lines from "./l06/lines.json";
+import l07lines from "./l07/lines.json";
 import l06rank from "./l06/rank.json";
 import s01timing from "./s01/timing.json";
 import s01words from "./s01/words.json";
@@ -38,6 +39,12 @@ import s13timing from "./s13/timing.json";
 import s13words from "./s13/words.json";
 import s14timing from "./s14/timing.json";
 import s14words from "./s14/words.json";
+import s15timing from "./s15/timing.json";
+import s15words from "./s15/words.json";
+import s16timing from "./s16/timing.json";
+import s16words from "./s16/words.json";
+import s19timing from "./s19/timing.json";
+import s19words from "./s19/words.json";
 
 const gdp = l01data as RaceData;
 const wages = l02rank as RaceData;
@@ -47,6 +54,9 @@ const hoursRank = l05rank as RaceData;
 const hoursLines = l05lines as RaceData;
 const priceRank = l06rank as RaceData;
 const priceLines = l06lines as RaceData;
+const popLines = l07lines as RaceData;
+const POP_SOURCE = "UN World Population Prospects (2024) via Our World in Data";
+const POP_MARKERS = [{ year: 2023, label: "UN projection" }];
 const PRICE_SOURCE = "Eurostat (nrg_pc_204), all taxes included";
 const HOURS_SOURCE = "Penn World Table (2025) via Our World in Data";
 const GDP_SOURCE = "World Bank, GDP (current US$)";
@@ -184,6 +194,60 @@ export const S14: React.FC = () => (
   />
 );
 
+export const S15: React.FC = () => (
+  <LineShort
+    words={s15words as LineShortWords}
+    timing={s15timing.timing}
+    data={popLines}
+    voiceDir="voice/s15"
+    source={POP_SOURCE}
+    music="music/terrachart-bed-07.wav"
+    yMin={40}
+    yMax={90}
+    yStep={10}
+    xStep={50}
+    format={(v) => `${v.toFixed(1)}m`}
+    axisFormat={(v) => `${v}m`}
+    markers={POP_MARKERS}
+  />
+);
+
+export const S16: React.FC = () => (
+  <LineShort
+    words={s16words as LineShortWords}
+    timing={s16timing.timing}
+    data={popLines}
+    voiceDir="voice/s16"
+    source={POP_SOURCE}
+    music="music/terrachart-bed-07.wav"
+    yMin={30}
+    yMax={65}
+    yStep={5}
+    xStep={50}
+    format={(v) => `${v.toFixed(1)}m`}
+    axisFormat={(v) => `${v}m`}
+    markers={POP_MARKERS}
+  />
+);
+
+export const S19: React.FC = () => (
+  <LineShort
+    words={s19words as LineShortWords}
+    timing={s19timing.timing}
+    data={popLines}
+    voiceDir="voice/s19"
+    source={POP_SOURCE}
+    music="music/terrachart-bed-07.wav"
+    yMin={10}
+    yMax={45}
+    yStep={5}
+    xStep={50}
+    format={(v) => `${v.toFixed(1)}m`}
+    axisFormat={(v) => `${v}m`}
+    markers={POP_MARKERS}
+  />
+);
+
 export const S01_FRAMES = duelTimeline(s01words as ShortWords, s01timing.timing).total;
 export const S02_FRAMES = duelTimeline(s02words as ShortWords, s02timing.timing).total;
 export const S03_FRAMES = stageTimeline(s03words as StageWords, s03timing.timing).total;
@@ -196,3 +260,6 @@ export const S11_FRAMES = lineShortTimeline(s11words as LineShortWords, s11timin
 export const S12_FRAMES = lineShortTimeline(s12words as LineShortWords, s12timing.timing).total;
 export const S13_FRAMES = stageTimeline(s13words as StageWords, s13timing.timing).total;
 export const S14_FRAMES = lineShortTimeline(s14words as LineShortWords, s14timing.timing).total;
+export const S15_FRAMES = lineShortTimeline(s15words as LineShortWords, s15timing.timing).total;
+export const S16_FRAMES = lineShortTimeline(s16words as LineShortWords, s16timing.timing).total;
+export const S19_FRAMES = lineShortTimeline(s19words as LineShortWords, s19timing.timing).total;
